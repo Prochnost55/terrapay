@@ -1,0 +1,8 @@
+[
+    { "id": "argentine-peso", "name": "Argentine Peso" },
+    { "id": "euro", "name": "Euro" },
+    { "id": "taka", "name": "Taka" },
+    { "id": "rupee", "name": "Rupee" },
+    { "id": "dollar", "name": "Dollar" }
+  ]
+  

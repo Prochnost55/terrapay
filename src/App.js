@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./Component/home/Home";
+import FormPage from "./Component/formpage/FormPage";
+import GearupPage from "./Component/gearup/gearupPage";
+import Currency from "./Component/currency/Currency";
+import CurrencyDetails from "./Component/currencydetails/CurrencyDetails";
+import GameStart from "./Component/gamestart/gameStart";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/form" element={<FormPage />} />
+        <Route path="/gearupPage" element={<GearupPage />} />
+        <Route path="/currency" element={<Currency />} />
+        <Route path="/details" element={<CurrencyDetails />} />
+        <Route path="/reAgain/:currencyId" element={<GameStart />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
