@@ -1,0 +1,16 @@
+.redirection-bar{
+    position: absolute;
+    border-top: 2px solid red;
+    display: block;
+    width: 100%;
+    content: " ";
+    top: 0;
+    animation: redirection 3s infinite;
+    z-index: 1;
+}
+
+@keyframes redirection {
+    0%   {width: 0;}
+  100% {width: 100%;}
+}
+

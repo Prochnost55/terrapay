@@ -1,0 +1,1 @@
+export const TOTAL_ALLOWED_ATTEMPTS = 3;

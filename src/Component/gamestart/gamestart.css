@@ -1,0 +1,69 @@
+.game-result-container {
+    justify-content: center;
+    background: top 10% left 20% / 20% no-repeat url("../assets/light.png"),
+        top 50% left 80% / 30% no-repeat url("../assets/light.png");
+}
+
+.container-covered {
+    padding: 2rem 3.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.glassmorphism {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.currency {
+    background-color: #5F8EFB;
+    color: white;
+    display: inline-block;
+    padding: 0.6rem 1.6rem;
+}
+
+.info {
+    color: white;
+    margin: 1rem;
+    font-size: 1.5rem;
+
+}
+
+.container-covered .row {
+    margin: 1rem 0;
+}
+
+.container-covered .label {
+    font-size: 1rem;
+    color: #EB5E57;
+    text-align: center;
+}
+
+.container-covered .value {
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+}
+
+.info-box {
+    text-align: center;
+    color: white;
+
+}
+
+.attempts-info {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+}
+
+.game-result-container .btn {
+    font-size: 1.2rem;
+}

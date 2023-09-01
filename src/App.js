@@ -9,22 +9,26 @@ import CurrencyDetails from "./Component/currencydetails/CurrencyDetails";
 import GameStart from "./Component/gamestart/gameStart";
 import FinalPage from './Component/finalgame/Finalgame';
 import ThankYou from './Component/thankyou/ThankYou';
+import UserContext, {EMPTY_USER} from "./context/userContext";
 
 function App() {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/form" element={<FormPage />} />
-        <Route path="/gearupPage" element={<GearupPage />} />
-        <Route path="/currency" element={<Currency />} />
-        <Route path="/details" element={<CurrencyDetails />} />
-        <Route path="/reAgain/:currencyId" element={<GameStart />} />
-        <Route path="/finalpage" element={<FinalPage />} />
-        <Route path="/thankyou" element={<ThankYou />} />
-      </Routes>
-    </BrowserRouter>
-  );
+    const [user, setUser] = React.useState(EMPTY_USER);
+    return (
+        <UserContext.Provider value={{user, setUser}}>
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/form" element={<FormPage />} />
+                    <Route path="/gearupPage" element={<GearupPage />} />
+                    <Route path="/currency" element={<Currency />} />
+                    <Route path="/details" element={<CurrencyDetails />} />
+                    <Route path="/reAgain/:currencyId" element={<GameStart />} />
+                    <Route path="/finalpage" element={<FinalPage />} />
+                    <Route path="/thankyou" element={<ThankYou />} />
+                </Routes>
+            </BrowserRouter>
+        </UserContext.Provider>
+    );
 }
 
 export default App;

@@ -19,6 +19,7 @@ html {
 
 #root {
     background: #233671;
+    z-index: 0;
 }
 
 
