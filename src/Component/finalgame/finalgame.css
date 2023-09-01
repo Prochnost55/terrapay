@@ -1,0 +1,59 @@
+.image-check{
+    display: flex;
+}
+.right-text{
+    font-size: 3.5rem;
+    color: #FFFFFF;
+}
+.para-text{
+    font-size: 2rem;
+    color: #FFFFFF;
+    width: 65%;
+    padding-top: 1.125rem ;
+}
+
+.text{
+padding-top: 67px;
+}
+
+.play-btn{
+        padding: 1rem 3rem;
+        background-color: #EB5E57;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 1.2rem;
+        margin-right: 6.8125rem;
+    }
+    .expert-btn{
+        border-radius: 8px;
+        padding: 1rem 1.8rem;
+        border: 1px solid #EB5E57;
+        color: white;
+        font-size: 1.2rem;
+        /* margin: 0 7rem; */
+        margin-right: 9.3125rem;
+        background-color: transparent;
+    }
+    
+
+   .check-img {
+    width: 414px; 
+    height: 412px;
+  }
+  
+  /* .text-content {
+    text-align: center;
+  }
+  
+  .buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 20px; 
+  }
+  
+  button {
+    margin: 10px;
+  } */
+  

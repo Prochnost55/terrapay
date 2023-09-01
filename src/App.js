@@ -7,6 +7,8 @@ import GearupPage from "./Component/gearup/gearupPage";
 import Currency from "./Component/currency/Currency";
 import CurrencyDetails from "./Component/currencydetails/CurrencyDetails";
 import GameStart from "./Component/gamestart/gameStart";
+import FinalPage from './Component/finalgame/Finalgame';
+import ThankYou from './Component/thankyou/ThankYou';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         <Route path="/currency" element={<Currency />} />
         <Route path="/details" element={<CurrencyDetails />} />
         <Route path="/reAgain/:currencyId" element={<GameStart />} />
+        <Route path="/finalpage" element={<FinalPage />} />
+        <Route path="/thankyou" element={<ThankYou />} />
       </Routes>
     </BrowserRouter>
   );

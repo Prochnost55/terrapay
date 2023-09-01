@@ -1,15 +1,25 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import check from "../assets/Frame 29.png";
+import "./finalgame.css";
 
 function Finalgame() {
   return (
-    <div>
-      <h1>You're right!</h1>
-      <p>We're on our way to cover this currency!</p>
-      <Link to={"/form"}>
-        <button>Play again</button>
-      </Link>
-      <button>Find out more from our experts</button>
+    <div className="container">
+      <div className="image-check">
+        <img src={check} alt="check" className="check-img" />
+        <div className="text">
+          <h1 className="right-text">You're right!</h1>
+          <p className="para-text">We're on our way to cover this currency!</p>
+        </div>
+      </div>
+
+      <div>
+        <Link to={"/form"}>
+          <button className="play-btn">Play again</button>
+        </Link>
+        <button className="expert-btn">Find out more from our experts</button>
+      </div>
     </div>
   );
 }
