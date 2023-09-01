@@ -1,6 +1,24 @@
+@font-face {
+    font-family: 'customFont';
+    src: local('customFont'),
+         url('./fonts/TT\ Firs\ Neue\ Trial\ Regular.woff') format('woff'),
+         url('./fonts/TT\ Firs\ Neue\ Trial\ Regular.woff2') format('woff2');
+}
+
 *{
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  background-color: #233671;
+  font-family: 'customFont';
+
 }
+
+html {
+    font-size: 16px;
+}
+
+#root {
+    background: #233671;
+}
+
+

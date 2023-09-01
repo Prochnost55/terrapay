@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import dulux from "../Assets/Dulux_solid_rgb.png";
-import quesGirl from "../Assets/3d00796 1.png";
+import dulux from "../assets/Dulux_solid_rgb.png";
+import quesGirl from "../assets/3d00796 1.png";
 
 function Currency() {
   const navigate = useNavigate();
