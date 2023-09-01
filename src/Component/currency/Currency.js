@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import dulux from "../assets/Dulux_solid_rgb.png";
 import quesGirl from "../assets/3d00796 1.png";
+import './currency.css';
 
 function Currency() {
   const navigate = useNavigate();
@@ -10,14 +10,9 @@ function Currency() {
     navigate("/details");
   };
   return (
-    <div className="container">
-      <h1 className="sub-title">Guess</h1>
-      <p className="title">the currencies TerraPay does not support</p>
-      <div>
-        <img src={dulux} alt="dulux" onClick={handleClick} />
-        <img src={dulux} alt="dulux" onClick={handleClick} />
-        <img src={dulux} alt="dulux" onClick={handleClick} />
-      </div>
+    <div className="container container-game">
+      <h1 className="title">Guess</h1>
+      <p className="sub-title">the currencies TerraPay does not support</p>
       <img src={quesGirl} alt="girl" className="girl-img" />
     </div>
   );

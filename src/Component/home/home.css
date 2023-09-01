@@ -6,6 +6,9 @@
     align-items: center;
 }
 
+.container-centered {
+    justify-content: center;
+}
 .ques-img {
     margin-top: 3rem;
     width: 30vw;

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./form.css";
+import { TerraPayLogo } from "../assets/svgs";
 
 function FormPage() {
   const navigate = useNavigate();
@@ -13,6 +14,7 @@ function FormPage() {
   });
 
   const handleInputChange = (event) => {
+    setError("");
     const { name, value } = event.target;
     setData((prevData) => ({
       ...prevData,
@@ -40,13 +42,11 @@ function FormPage() {
   };
 
   return (
-    <div className="container">
-      <h1 className="terrapay-title">
-        t<em>e</em>rrapay
-      </h1>
+    <div className="container form-container">
+      <TerraPayLogo className='terrapay-logo' />
       <div className="form">
         <div className="form-header">
-          <h1 className="form-title">Fill in your details</h1>
+          <h1 className="form-title">Fill in your details and</h1>
           <h2 className="form-subtitle">let's find out!</h2>
         </div>
         <div className="row">
@@ -54,7 +54,7 @@ function FormPage() {
             <input
               type="text"
               name="firstName"
-              placeholder="First Name"
+              placeholder="First Name*"
               value={data.firstName}
               onChange={handleInputChange}
             />
@@ -63,7 +63,8 @@ function FormPage() {
             <input
               type="text"
               name="lastName"
-              placeholder="Last Name"
+              placeholder="Last Name*"
+              className="last-name"
               value={data.lastName}
               onChange={handleInputChange}
             />
@@ -74,7 +75,8 @@ function FormPage() {
             <input
               type="email"
               name="email"
-              placeholder="Business Email"
+              className="email"
+              placeholder="Business Email*"
               value={data.email}
               onChange={handleInputChange}
             />

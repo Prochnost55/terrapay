@@ -1,0 +1,15 @@
+.girl-img{
+    position: absolute;
+    bottom: 0;
+    height: 70vh;
+}
+
+.container-game .title{
+    font-size: 5rem;
+    margin-top: 3rem;
+    color: #EB5E57;
+}
+
+.container-game .sub-title{
+    color: white;
+}

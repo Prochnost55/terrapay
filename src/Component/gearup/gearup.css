@@ -1,13 +1,11 @@
+.loader {
+    margin-top: 5rem;
+}
 .title{
-    font-size: 35px;
+    font-size: 3.5rem;
     color: white;
 }
 .sub-title{
     color: #EB5E57;
-    font-size: 35px;
-}
-.loading{
-    color: white;
-    font-size: 20px;
-    padding-top: 30px;
+    font-size: 3.5rem;
 }
