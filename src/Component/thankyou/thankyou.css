@@ -2,8 +2,7 @@
     justify-content: center;
 }
 .background-image{
-    background-image: url("../assets/background.png");
-    background-size: cover;
+    background: top 10% left 70% / 120%  no-repeat url("../assets/background.png");
     position: fixed;
     top: 0;
     left: 0;
