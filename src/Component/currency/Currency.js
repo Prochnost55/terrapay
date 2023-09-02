@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import quesGirl from "../assets/3d00796 1.png";
+import quesGirl from "../assets/questionGirl.png";
 import './currency.css';
 import RedirectionBar from "../RedirectionBar/RedirectionBar";
 

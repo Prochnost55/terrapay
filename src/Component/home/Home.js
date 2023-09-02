@@ -6,7 +6,7 @@ import "./home.css";
 
 function Home() {
   return (
-    <div className="container">
+    <div className="container home-container">
         <div className="img-container" >
             <QuestionMark className="ques-img" />
         </div>

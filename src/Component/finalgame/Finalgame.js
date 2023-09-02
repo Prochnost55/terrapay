@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import check from "../assets/Frame 29.png";
+import check from "../assets/check.png";
 import "./finalgame.css";
 
 function Finalgame() {

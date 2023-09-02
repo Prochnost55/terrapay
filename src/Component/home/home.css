@@ -1,3 +1,6 @@
+.home-container {
+    /* background: top 20% left 50% / 40% no-repeat url("../assets/light.png") */
+}
 .container {
     width: 100vw;
     height: 100vh;
@@ -13,8 +16,6 @@
     margin-top: 3rem;
     width: 30vw;
     margin-bottom: -6rem;
-    
-    
 }
 
 .heading {
