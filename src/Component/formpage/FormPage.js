@@ -46,7 +46,7 @@ function FormPage() {
                 setError("Please enter a valid email.");
                 return;
             }
-            
+
             setError("");
             updateUser(data).then(() => {
                 navigate("/gearupPage")
@@ -59,7 +59,7 @@ function FormPage() {
         }
     };
 
-    const updateUser = async () => {
+    const updateUser = async (data) => {
         let userFromDB = await getUserFromDB(data.email);
         if(userFromDB){
             if(userFromDB.gameCount >= TOTAL_ALLOWED_ATTEMPTS){
