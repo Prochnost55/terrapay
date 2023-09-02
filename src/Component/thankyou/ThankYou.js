@@ -112,7 +112,7 @@ const configs = {
     emitters: {
       life: {
         count: emittersLifeCount,
-        duration: 0.1,
+        duration: 8,
         delay: 0.4
       },
       rate: {

@@ -30,7 +30,7 @@ function FormPage() {
     };
 
     const validateEmail = (email) => {
-        const emailRegex = /^((?!.*(gmx\.com|yandex\.com|mail\.com|zoho\.com|protonmail\.com|icloud\.com|gmail\.com|yahoo\.com|outlook\.com|hotmail\.com|aol\.com|163\.com)).*)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
         return emailRegex.test(email);
     };
 
