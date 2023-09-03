@@ -16,7 +16,7 @@ function CurrencyList(props) {
     }, [data])
 
     const processCurrencies = () => {
-        const chunkSize = 10;
+        const chunkSize = 5;
         const temp = [];
         for (let i = 0; i < data.length; i += chunkSize) {
             let chunk = data.slice(i, i + chunkSize);
@@ -25,7 +25,7 @@ function CurrencyList(props) {
             chunk = chunk.map((currency, index) => {
                 if(!currency.label) return;
                 return (
-                    <span>
+                    <span key={`${i}-${index}`}>
                         <Link
                             key={currency.label}
                             to={`/reAgain/${currency.index}`}

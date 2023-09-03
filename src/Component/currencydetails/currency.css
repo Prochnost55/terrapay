@@ -8,7 +8,7 @@
     margin: 0 2rem;
 }
 
-.currency-link:hover {
+.currencyPage .currency-link:hover {
     color: #EB5E57;
 }
 
@@ -99,7 +99,6 @@
 .track {
     white-space: nowrap;
     will-change: transform;
-    margin: 1.5rem 0;
   }
 .track-fwd {
     animation: marquee 60s linear infinite;

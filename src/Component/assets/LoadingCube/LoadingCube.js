@@ -102,6 +102,18 @@ const LoadingCube = (props) => {
             </g>
         </svg>
     )
+
+    // return (
+    //     <lottie-player 
+    //         src="https://lottie.host/939e624c-c6f7-4809-a4f3-1d3aa5892cf3/rgAUDqBxNG.json" 
+    //         background="#fff" 
+    //         speed="1" 
+    //         style={{width: "300px", height: "300px"}}
+    //         loop controls autoplay direction="1" mode="normal"
+    //     >
+
+    //         </lottie-player>
+    // )
 }
 
 export default LoadingCube;
