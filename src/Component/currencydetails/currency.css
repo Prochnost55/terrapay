@@ -11,6 +11,7 @@
 
 .currencyPage .currency-link a, .currencyPage .currency-link a:visited {
     color: #FF928E!important;
+    text-decoration: none;
 }
 
 .currencyPage .currency-link a:hover {

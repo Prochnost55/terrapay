@@ -87,7 +87,7 @@ function FormPage() {
                         <h2 className="form-subtitle">let's find out!</h2>
                     </div>
                     <div className="row">
-                        <div className="col">
+                        <div className="col-40">
                             <input
                                 type="text"
                                 name="firstName"
@@ -96,7 +96,7 @@ function FormPage() {
                                 onChange={handleInputChange}
                             />
                         </div>
-                        <div className="col">
+                        <div className="col-60">
                             <input
                                 type="text"
                                 name="lastName"
@@ -108,7 +108,7 @@ function FormPage() {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col">
+                        <div className="col-60">
                             <input
                                 type="email"
                                 name="email"
@@ -118,7 +118,7 @@ function FormPage() {
                                 onChange={handleInputChange}
                             />
                         </div>
-                        <div className="col">
+                        <div className="col-40">
                             <input
                                 type="tel"
                                 name="mobileNo"

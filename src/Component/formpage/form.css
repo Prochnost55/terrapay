@@ -24,21 +24,26 @@
     padding: 1rem 0;
 }
 
-/* .form {
-    width: 80%;
-    max-width: 600px;
-} */
+.form {
+    width: 600px;
+}
 
 .row {
     display: flex;
     margin-bottom: 2rem;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     gap: 3rem;
+}
+.col-60 {
+    width: 60%;
+}
+.col-40 {
+    width: 40%;
 }
 
 input {
-    width: 18vw;
+    width: 100%;
     padding: 1rem;
     border-radius: 8px;
     border: none;
@@ -46,12 +51,12 @@ input {
     font-size: 1.2rem;
 }
 
-input.last-name {
+/* input.last-name {
     width: 23rem;
 }
 input.email {
     width: 25rem;
-}
+} */
 
 input::placeholder {
     color: #233671;
