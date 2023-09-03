@@ -4,7 +4,11 @@ const totalDuration = 3 /* * 60 * 60*/,
 
 export const CONFETI = {
     "fullScreen": {
-        "zIndex": 1
+        "enable": true,
+        "zIndex": 1,
+        "detectRetina": true,
+        duration: 0,
+        "fpsLimit": 30
     },
     "particles": {
         "number": {

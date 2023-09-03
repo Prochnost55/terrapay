@@ -9,7 +9,7 @@ function GearupPage() {
     useEffect(() => {
         const loadingTimeout = setTimeout(() => {
           navigate("/currency");
-        }, 5000);
+        }, 3000);
         return () => clearTimeout(loadingTimeout);
     }, []);
 

@@ -16,11 +16,12 @@ function CurrencyList(props) {
     }, [data])
 
     const processCurrencies = () => {
-        const chunkSize = 5;
+        const chunkSize = 6;
         const temp = [];
         for (let i = 0; i < data.length; i += chunkSize) {
             let chunk = data.slice(i, i + chunkSize);
-            let marqueeClass = i % 20 == 0 ? "track track-fwd" : "track track-rev";
+            chunk = [...chunk, ...chunk, ...chunk];
+            let marqueeClass = i % (chunkSize*2) == 0 ? "track track-fwd" : "track track-rev";
 
             chunk = chunk.map((currency, index) => {
                 if(!currency.label) return;

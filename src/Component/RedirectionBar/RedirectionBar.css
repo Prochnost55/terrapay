@@ -5,7 +5,7 @@
     width: 100%;
     content: " ";
     top: 0;
-    animation: redirection 5s infinite;
+    animation: redirection 3s infinite;
     z-index: 1;
 }
 

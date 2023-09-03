@@ -1,15 +1,20 @@
 .currencyPage {
     justify-content: center;
+    background-color: #FFF1E2;
 }
 .currencyPage .currency-link {
     font-size: 2.5rem;
-    color: white;
+    
     padding-left: 15px;
     margin: 0 2rem;
 }
 
-.currencyPage .currency-link:hover {
-    color: #EB5E57;
+.currencyPage .currency-link a, .currencyPage .currency-link a:visited {
+    color: #FF928E!important;
+}
+
+.currencyPage .currency-link a:hover {
+    color: #4572E0!important;
 }
 
 /* .currencyPage li {
