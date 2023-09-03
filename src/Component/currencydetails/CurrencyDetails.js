@@ -25,23 +25,16 @@ function CurrencyList(props) {
             chunk = chunk.map((currency, index) => {
                 if(!currency.label) return;
                 return (
-                    <span key={`${i}-${index}`}>
+                    <span key={`${i}-${index}`} className="currency-link">
                         <Link
-                            key={currency.label}
+                            key={`${currency.label}-${i}-${index}`}
                             to={`/reAgain/${currency.index}`}
-                            className="currency-link"
                         >
                             {currency.label}
                         </Link>
                     </span>
                 )
             })
-            chunk = [
-                ...chunk,
-                ...chunk,
-                ...chunk,
-                ...chunk,
-            ];
             
             temp.push(
                 <div className={marqueeClass} key={`marquee-${i}`}>
