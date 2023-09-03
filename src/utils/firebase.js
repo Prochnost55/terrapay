@@ -12,20 +12,4 @@ const firebaseConfig = {
 
 const firebase = initializeApp(firebaseConfig);
 
-// class Firebase {
-//     constructor(){
-//         this.getInstance();
-//     }
-//     firebase=null;
-//     getInstance(){
-//         if(this.firebase){
-//             return firebase;
-//         }
-//         this.firebase = initializeApp(firebaseConfig);
-//         return firebase;
-//     }
-// }
-
-// const firebaseInstance = new Firebase();
-
 export default firebase;

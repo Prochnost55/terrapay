@@ -12,10 +12,14 @@ function CurrencyDetailsPage() {
     const { currencyId } = useParams();
     const [currency, setCurrency] = React.useState(null);
     const { user, setUser } = useContext(UserContext);
+    const [supportedCountries, setSupportedCountries] = React.useState([]);
+
     const navigate = useNavigate();
 
     React.useEffect(() => {
         const selectedCurrency = currencies.find((c) => c.index == currencyId);
+        const contries = currencies.filter((data) => data.currency.indexOf(selectedCurrency.currency) != -1);
+        setSupportedCountries(contries);
         setCurrency(selectedCurrency);
         updateUser(selectedCurrency);
         if(selectedCurrency.isSupported === -1){
@@ -24,6 +28,7 @@ function CurrencyDetailsPage() {
     }, [currencyId])
 
     const updateUser = (selectedCurrency) => {
+        if(!user.email) return;
         const updatedUserData = {
             ...user,
             selectedCurrency: user.selectedCurrency ? [
@@ -37,6 +42,18 @@ function CurrencyDetailsPage() {
 
     if (!currency) {
         return <div>Currency not found</div>;
+    }
+
+    const getSupportedCountries = () => {
+        if(supportedCountries.length == 1){
+            return currency.country;
+        }
+
+        if(supportedCountries.length == 2){
+            return `${supportedCountries[0].country} & ${supportedCountries[1].country}`
+        };
+
+        return `${supportedCountries[0].country}, ${supportedCountries[1].country} & ${supportedCountries.length - 2} others`
     }
 
     return (
@@ -54,10 +71,10 @@ function CurrencyDetailsPage() {
                 <div className="row">
                     <div>
                         <div className="label">
-                            Country
+                            {supportedCountries.length == 1 ? "Country" : "Countries"} 
                         </div>
                         <div className="value">
-                            {currency.country}
+                            {getSupportedCountries()}
                         </div>
                     </div>
                     <div>
