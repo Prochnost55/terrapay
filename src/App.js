@@ -10,6 +10,7 @@ import GameStart from "./Component/gamestart/gameStart";
 import FinalPage from './Component/finalgame/Finalgame';
 import ThankYou from './Component/thankyou/ThankYou';
 import UserContext, {EMPTY_USER} from "./context/userContext";
+import Finalgame from "./Component/finalgame/Finalgame";
 
 function App() {
     const [user, setUser] = React.useState(EMPTY_USER);
@@ -25,6 +26,7 @@ function App() {
                     <Route path="/reAgain/:currencyId" element={<GameStart />} />
                     <Route path="/finalpage" element={<FinalPage />} />
                     <Route path="/thankyou" element={<ThankYou />} />
+                    <Route path="/notCovered" element={<Finalgame />} />
                 </Routes>
             </BrowserRouter>
         </UserContext.Provider>

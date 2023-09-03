@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import currencies from "../currencydetails/currencies.json";
 import './gamestart.css';
@@ -7,16 +7,20 @@ import UserContext from "../../context/userContext";
 import { updateUserInDB } from "../../utils/client";
 import { TOTAL_ALLOWED_ATTEMPTS } from "../../utils/constant";
 
+
 function CurrencyDetailsPage() {
     const { currencyId } = useParams();
     const [currency, setCurrency] = React.useState(null);
     const { user, setUser } = useContext(UserContext);
+    const navigate = useNavigate();
 
     React.useEffect(() => {
         const selectedCurrency = currencies.find((c) => c.index == currencyId);
         setCurrency(selectedCurrency);
-
         updateUser(selectedCurrency);
+        if(selectedCurrency.isSupported === -1){
+            navigate("/notCovered");
+        }
     }, [currencyId])
 
     const updateUser = (selectedCurrency) => {

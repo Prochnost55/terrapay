@@ -1,49 +1,56 @@
-.image-check{
+.not-covered-container {
+    justify-content: center;
+}
+
+.image-check {
     display: flex;
 }
-.right-text{
+
+.right-text {
     font-size: 3.5rem;
     color: #FFFFFF;
 }
-.para-text{
+
+.para-text {
     font-size: 2rem;
     color: #FFFFFF;
     width: 65%;
-    padding-top: 1.125rem ;
+    padding-top: 1.125rem;
 }
 
-.text{
-padding-top: 67px;
+.text {
+    padding-top: 67px;
 }
 
-.play-btn{
-        padding: 1rem 3rem;
-        background-color: #EB5E57;
-        color: white;
-        border: none;
-        border-radius: 8px;
-        cursor: pointer;
-        font-size: 1.2rem;
-        margin-right: 6.8125rem;
-    }
-    .expert-btn{
-        border-radius: 8px;
-        padding: 1rem 1.8rem;
-        border: 1px solid #EB5E57;
-        color: white;
-        font-size: 1.2rem;
-        /* margin: 0 7rem; */
-        margin-right: 9.3125rem;
-        background-color: transparent;
-    }
-    
+.play-btn {
+    padding: 1rem 3rem;
+    background-color: #EB5E57;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-right: 6.8125rem;
+}
 
-   .check-img {
-    width: 414px; 
+.expert-btn {
+    border-radius: 8px;
+    padding: 1rem 1.8rem;
+    border: 1px solid #EB5E57;
+    color: white;
+    font-size: 1.2rem;
+    /* margin: 0 7rem; */
+    margin-right: 9.3125rem;
+    background-color: transparent;
+}
+
+
+.check-img {
+    width: 414px;
     height: 412px;
-  }
-  
-  /* .text-content {
+}
+
+/* .text-content {
     text-align: center;
   }
   
@@ -56,4 +63,3 @@ padding-top: 67px;
   button {
     margin: 10px;
   } */
-  

@@ -95,7 +95,7 @@ const LoadingCube = (props) => {
 
     };
     return (
-        <svg viewBox="0 0 60 60" width="320" stroke="#233671" stroke-linejoin="round" {...props}>
+        <svg viewBox="0 0 60 60" width="320" stroke="#233671" strokeLineJoin="round" {...props}>
             <g id="cube" fill="#fff">
                 <path id="base" />
                 <path id="lid" />

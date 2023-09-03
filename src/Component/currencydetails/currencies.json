@@ -1,1492 +1,1534 @@
 [
-    {
-      "index": 1,
-      "country": "Aland Islands",
-      "coverage": "All banks",
-      "currency": "EUR",
-      "penetration": "100%",
-      "deliveryETA": "Same business day",
-      "label": "euro",
-      "isSupported": 1
-    },
-    {
-      "index": 2,
-      "country": "Andorra",
-      "coverage": "All banks",
-      "currency": "EUR",
-      "penetration": "100%",
-      "deliveryETA": "Same business day",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 3,
-      "country": "Argentina",
-      "coverage": "All banks",
-      "currency": "ARS",
-      "penetration": "100%",
-      "deliveryETA": "Same day delivery",
-      "label": "Argentine peso",
-      "isSupported": 1
-    },
-    {
-      "index": 4,
-      "country": "Australia",
-      "coverage": "All banks",
-      "currency": "AUD",
-      "penetration": "100%",
-      "deliveryETA": "Same day delivery",
-      "label": "Australian dollar",
-      "isSupported": 1
-    },
-    {
-      "index": 5,
-      "country": "Austria",
-      "coverage": "All banks",
-      "currency": "EUR",
-      "penetration": "100%",
-      "deliveryETA": "SEPA Instant: 24*7, Real-time, \nSEPA Non-Instant: Same day, T+1 business days",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 6,
-      "country": "Bahrain",
-      "coverage": "All banks",
-      "currency": "BHD",
-      "penetration": "100%",
-      "deliveryETA": "Same day delivery",
-      "label": "Bahrain dinar",
-      "isSupported": 1
-    },
-    {
-      "index": 7,
-      "country": "Bangladesh",
-      "coverage": "Mobile & digital financial services",
-      "currency": "BDT",
-      "penetration": "95%",
-      "deliveryETA": "Real-time payments",
-      "label": "taka",
-      "isSupported": 1
-    },
-    {
-      "index": 8,
-      "country": "Bangladesh",
-      "coverage": "All banks",
-      "currency": "BDT",
-      "penetration": "100%",
-      "deliveryETA": "Same day/ T+1 business days",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 9,
-      "country": "Belgium",
-      "coverage": "All banks",
-      "currency": "EUR",
-      "penetration": "100%",
-      "deliveryETA": "SEPA Instant: 24*7, Real-time, \nSEPA Non-Instant: Same day, T+1 business days",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 10,
-      "country": "Benin",
-      "coverage": "All banks, telcos",
-      "currency": "XOF",
-      "penetration": "100%",
-      "deliveryETA": "T+1 business days, real-time mobile payments",
-      "label": "cfa-franc bceao",
-      "isSupported": 1
-    },
-    {
-      "index": 11,
-      "country": "Bolivia",
-      "coverage": "All banks",
-      "currency": "BOB",
-      "penetration": "100%",
-      "deliveryETA": "Same day delivery",
-      "label": "boliviano",
-      "isSupported": 1
-    },
-    {
-      "index": 12,
-      "country": "Botswana",
-      "coverage": "Digital wallet",
-      "currency": "BWP",
-      "penetration": "80%",
-      "deliveryETA": "Real-time payments",
-      "label": "pula",
-      "isSupported": 1
-    },
-    {
-      "index": 13,
-      "country": "Brazil",
-      "coverage": "All banks",
-      "currency": "BRL",
-      "penetration": "100%",
-      "deliveryETA": "Instant PIX Transactions & same day delivery",
-      "label": "Brazilian real",
-      "isSupported": 1
-    },
-    {
-      "index": 14,
-      "country": "Brunei",
-      "coverage": "All banks",
-      "currency": "BND",
-      "penetration": "100%",
-      "deliveryETA": "Same day/ T+1 business days",
-      "label": "Brunei dollar",
-      "isSupported": 1
-    },
-    {
-      "index": 15,
-      "country": "Bulgaria",
-      "coverage": "All banks",
-      "currency": "EUR",
-      "penetration": "100%",
-      "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 16,
-      "country": "Burkina Faso",
-      "coverage": "Telcos & MNOs",
-      "currency": "XOF",
-      "penetration": "84%",
-      "deliveryETA": "Same day/T+1 business day",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 17,
-      "country": "Burkina Faso",
-      "coverage": "All Banks",
-      "currency": "XOF",
-      "penetration": "100%",
-      "deliveryETA": "T+1 business days",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 18,
-      "country": "Burundi",
-      "coverage": "Financial services",
-      "currency": "BIF",
-      "penetration": "59%",
-      "deliveryETA": "Real-time payments",
-      "label": "Burundi franc",
-      "isSupported": 1
-    },
-    {
-      "index": 19,
-      "country": "Cambodia",
-      "coverage": "Mobile wallet",
-      "currency": "USD",
-      "penetration": "70%",
-      "deliveryETA": "Real-time payments",
-      "label": "US dollar",
-      "isSupported": 1
-    },
-    {
-      "index": 20,
-      "country": "Cambodia",
-      "coverage": "All banks",
-      "currency": "USD",
-      "penetration": "100%",
-      "deliveryETA": "Real-time payments",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 21,
-      "country": "Cameroon",
-      "coverage": "UBA bank accounts",
-      "currency": "XAF",
-      "penetration": "50%",
-      "deliveryETA": "Real-time payments",
-      "label": "cfa-franc beac",
-      "isSupported": 1
-    },
-    {
-      "index": 22,
-      "country": "Cameroon",
-      "coverage": "MNOs",
-      "currency": "XAF",
-      "penetration": "89%",
-      "deliveryETA": "Real-time payments",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 23,
-      "country": "Canada",
-      "coverage": "All banks",
-      "currency": "CAD",
-      "penetration": "100%",
-      "deliveryETA": "Same day/ T+1 business days",
-      "label": "Canadian dollar",
-      "isSupported": 1
-    },
-    {
-      "index": 24,
-      "country": "Central African \nRepublic",
-      "coverage": "MNO",
-      "currency": "XAF",
-      "penetration": "80%",
-      "deliveryETA": "Real-time payments",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 25,
-      "country": "Chad",
-      "coverage": "Telcos",
-      "currency": "XAF",
-      "penetration": "75%",
-      "deliveryETA": "Real-time payments",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 26,
-      "country": "Chile",
-      "coverage": "All banks",
-      "currency": "CLP",
-      "penetration": "100%",
-      "deliveryETA": "Same day delivery",
-      "label": "Chilean peso",
-      "isSupported": 1
-    },
-    {
-      "index": 27,
-      "country": "China",
-      "coverage": "Mobile wallets",
-      "currency": "CNY",
-      "penetration": "95%",
-      "deliveryETA": "Real-time payments",
-      "label": "Renminbi yuan",
-      "isSupported": 1
-    },
-    {
-      "index": 28,
-      "country": "China",
-      "coverage": "Union Pay Cards (Banks)",
-      "currency": "CNY",
-      "penetration": "100%",
-      "deliveryETA": "Same day delivery",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 29,
-      "country": "Colombia",
-      "coverage": "Mobile wallet",
-      "currency": "COP",
-      "penetration": "80%",
-      "deliveryETA": "Instant (One-time registration required)",
-      "label": "Colombian peso",
-      "isSupported": 1
-    },
-    {
-      "index": 30,
-      "country": "Colombia",
-      "coverage": "All banks",
-      "currency": "COP",
-      "penetration": "100%",
-      "deliveryETA": "Same day delivery",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 31,
-      "country": "Congo B",
-      "coverage": "Telcos & MNOs",
-      "currency": "XAF",
-      "penetration": "50%",
-      "deliveryETA": "Real-time payments",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 32,
-      "country": "Croatia",
-      "coverage": "All banks",
-      "currency": "EUR",
-      "penetration": "100%",
-      "deliveryETA": "SEPA Non-Instant: Same day, T+1 business days",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 33,
-      "country": "Cyprus",
-      "coverage": "All banks",
-      "currency": "EUR",
-      "penetration": "100%",
-      "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 34,
-      "country": "Czech Republic",
-      "coverage": "All banks",
-      "currency": "EUR",
-      "penetration": "100%",
-      "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 35,
-      "country": "Denmark",
-      "coverage": "All banks",
-      "currency": "EUR",
-      "penetration": "100%",
-      "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 36,
-      "country": "DRC",
-      "coverage": "Telcos",
-      "currency": "CDF/USD",
-      "penetration": "50%",
-      "deliveryETA": "Real-time payments",
-      "label": "Congolais franc/ US dollar",
-      "isSupported": 1
-    },
-    {
-      "index": 37,
-      "country": "DRC",
-      "coverage": "All banks*",
-      "currency": "CDF/USD",
-      "penetration": "100%",
-      "deliveryETA": "WIP",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 38,
-      "country": "Ecuador",
-      "coverage": "All banks",
-      "currency": "USD",
-      "penetration": "100%",
-      "deliveryETA": "Same day delivery",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 39,
-      "country": "Egypt",
-      "coverage": "All banks",
-      "currency": "EGP/USD",
-      "penetration": "100%",
-      "deliveryETA": "EGP: Same day/T+1 business days\nUSD: Same day/T+2 business days",
-      "label": "Egyptian pound/ US dollar",
-      "isSupported": 1
-    },
-    {
-      "index": 40,
-      "country": "Estonia",
-      "coverage": "All banks",
-      "currency": "EUR",
-      "penetration": "100%",
-      "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 41,
-      "country": "Ethiopia",
-      "coverage": "All banks",
-      "currency": "ETB",
-      "penetration": "100%",
-      "deliveryETA": "Same day delivery",
-      "label": "birr",
-      "isSupported": 1
-    },
-    {
-      "index": 42,
-      "country": "Finland",
-      "coverage": "All banks",
-      "currency": "EUR",
-      "penetration": "100%",
-      "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 43,
-      "country": "France",
-      "coverage": "All banks",
-      "currency": "EUR",
-      "penetration": "100%",
-      "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 44,
-      "country": "Gabon",
-      "coverage": "Telcos",
-      "currency": "XAF",
-      "penetration": "50%",
-      "deliveryETA": "Real-time payments",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 45,
-      "country": "Gambia",
-      "coverage": "All Banks",
-      "currency": "GMD",
-      "penetration": "100%",
-      "deliveryETA": "Same day delivery",
-      "label": "dalasi",
-      "isSupported": 1
-    },
-    {
-      "index": 46,
-      "country": "Gambia",
-      "coverage": "MNO, mobile wallets",
-      "currency": "GMD",
-      "penetration": "",
-      "deliveryETA": "Real-time payments",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 47,
-      "country": "Georgia",
-      "coverage": "All banks",
-      "currency": "GEL",
-      "penetration": "100%",
-      "deliveryETA": "Same day delivery/T+1 business day",
-      "label": "Georgian lari",
-      "isSupported": 1
-    },
-    {
-      "index": 48,
-      "country": "Germany",
-      "coverage": "All banks",
-      "currency": "EUR",
-      "penetration": "100%",
-      "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 49,
-      "country": "Ghana",
-      "coverage": "Telcos & MNOs",
-      "currency": "GHS",
-      "penetration": "98%",
-      "deliveryETA": "Real-time payments",
-      "label": "Ghana cedi",
-      "isSupported": 1
-    },
-    {
-      "index": 50,
-      "country": "Ghana",
-      "coverage": "All banks",
-      "currency": "GHS",
-      "penetration": "100%",
-      "deliveryETA": "Real-time payments",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 51,
-      "country": "Gibraltar",
-      "coverage": "All banks",
-      "currency": "EUR",
-      "penetration": "100%",
-      "deliveryETA": "SEPA Non-Instant: Same day, T+1 business days",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 52,
-      "country": "Greece",
-      "coverage": "All banks",
-      "currency": "EUR",
-      "penetration": "100%",
-      "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 53,
-      "country": "Guernsey",
-      "coverage": "All banks",
-      "currency": "EUR",
-      "penetration": "100%",
-      "deliveryETA": "SEPA Non-Instant: Same day, T+1 business days",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 54,
-      "country": "Guinea Bissau",
-      "coverage": "MNOs",
-      "currency": "XOF",
-      "penetration": "52%",
-      "deliveryETA": "Real-time payments",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 55,
-      "country": "Guinea Bissau",
-      "coverage": "All Banks",
-      "currency": "XOF",
-      "penetration": "100%",
-      "deliveryETA": "T+1 business days",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 56,
-      "country": "Guinea Conakry",
-      "coverage": "MNOs",
-      "currency": "GNF",
-      "penetration": "50%",
-      "deliveryETA": "Real-time payments",
-      "label": "Guinea franc",
-      "isSupported": 1
-    },
-    {
-      "index": 57,
-      "country": "Haiti",
-      "coverage": "Money management service",
-      "currency": "HTG",
-      "penetration": "100%",
-      "deliveryETA": "Real-time payments",
-      "label": "gourde",
-      "isSupported": 1
-    },
-    {
-      "index": 58,
-      "country": "Hungary",
-      "coverage": "All banks",
-      "currency": "EUR",
-      "penetration": "100%",
-      "deliveryETA": "SEPA Non-Instant: Same day, T+1 business days",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 59,
-      "country": "Iceland",
-      "coverage": "All banks",
-      "currency": "EUR",
-      "penetration": "100%",
-      "deliveryETA": "SEPA Non-Instant: Same day, T+1 business days",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 60,
-      "country": "India",
-      "coverage": "All banks",
-      "currency": "INR",
-      "penetration": "100%",
-      "deliveryETA": "Real-time payments for UPI/IMPS, NEFT: 30 minutes",
-      "label": "Indian rupee",
-      "isSupported": 1
-    },
-    {
-      "index": 61,
-      "country": "Indonesia",
-      "coverage": "Financial & digital payments services",
-      "currency": "IDR",
-      "penetration": "65%",
-      "deliveryETA": "Real-time payments",
-      "label": "Indonesian rupiah",
-      "isSupported": 1
-    },
-    {
-      "index": 62,
-      "country": "Indonesia",
-      "coverage": "All banks",
-      "currency": "IDR",
-      "penetration": "100%",
-      "deliveryETA": "Real-time payments",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 63,
-      "country": "Iraq",
-      "coverage": "All banks",
-      "currency": "IQD",
-      "penetration": "100%",
-      "deliveryETA": "WIP",
-      "label": "Iraqi dinar",
-      "isSupported": 1
-    },
-    {
-      "index": 64,
-      "country": "Ireland",
-      "coverage": "All banks",
-      "currency": "EUR",
-      "penetration": "100%",
-      "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 65,
-      "country": "Isle of Man",
-      "coverage": "All banks",
-      "currency": "EUR",
-      "penetration": "100%",
-      "deliveryETA": "SEPA Non-Instant: Same day, T+1 business days",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 66,
-      "country": "Israel",
-      "coverage": "All banks*",
-      "currency": "ILS",
-      "penetration": "100%",
-      "deliveryETA": "Neema accounts: Same day delivery \nOther accounts: T+1 business day",
-      "label": "New Israeli sheqel",
-      "isSupported": 1
-    },
-    {
-      "index": 67,
-      "country": "Italy",
-      "coverage": "All banks",
-      "currency": "EUR",
-      "penetration": "100%",
-      "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 68,
-      "country": "Ivory Coast",
-      "coverage": "All Banks",
-      "currency": "XOF",
-      "penetration": "100%",
-      "deliveryETA": "T+1 business day",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 69,
-      "country": "Ivory Coast",
-      "coverage": "Mobile money services, MNOs & telcos",
-      "currency": "XOF",
-      "penetration": "100%",
-      "deliveryETA": "Real-time payments",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 70,
-      "country": "Jersey",
-      "coverage": "All banks",
-      "currency": "EUR",
-      "penetration": "100%",
-      "deliveryETA": "SEPA Non-Instant: Same day, T+1 business days",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 71,
-      "country": "Jordan",
-      "coverage": "All banks**",
-      "currency": "JOD",
-      "penetration": "100%",
-      "deliveryETA": "Same day/T+1 business day",
-      "label": "Jordanian dinar",
-      "isSupported": 1
-    },
-    {
-      "index": 72,
-      "country": "Kenya",
-      "coverage": "Telcos & Money transfer service",
-      "currency": "KES",
-      "penetration": "98%",
-      "deliveryETA": "Real-time payments",
-      "label": "Kenyan shilling",
-      "isSupported": 1
-    },
-    {
-      "index": 73,
-      "country": "Kenya",
-      "coverage": "All banks",
-      "currency": "KES",
-      "penetration": "100%",
-      "deliveryETA": "Same day/T+1 business day",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 74,
-      "country": "Laos",
-      "coverage": "All banks",
-      "currency": "USD",
-      "penetration": "100%",
-      "deliveryETA": "T+3 business days",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 75,
-      "country": "Latvia",
-      "coverage": "All banks",
-      "currency": "EUR",
-      "penetration": "100%",
-      "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 76,
-      "country": "Liberia",
-      "coverage": "UBA bank accounts",
-      "currency": "USD",
-      "penetration": "50%",
-      "deliveryETA": "Real-time payments",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 77,
-      "country": "Liberia",
-      "coverage": "MNOs",
-      "currency": "USD",
-      "penetration": "50%",
-      "deliveryETA": "Real-time payments",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 78,
-      "country": "Liechtenstein",
-      "coverage": "All banks",
-      "currency": "EUR",
-      "penetration": "100%",
-      "deliveryETA": "SEPA Non-Instant: Same day, T+1 business days",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 79,
-      "country": "Lithuania",
-      "coverage": "All banks",
-      "currency": "EUR",
-      "penetration": "100%",
-      "deliveryETA": "SEPA Non-Instant: Same day, T+1 business days",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 80,
-      "country": "Luxembourg",
-      "coverage": "All banks",
-      "currency": "EUR",
-      "penetration": "100%",
-      "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 81,
-      "country": "Madagascar",
-      "coverage": "Telcos",
-      "currency": "MGA",
-      "penetration": "50%",
-      "deliveryETA": "Real-time payments",
-      "label": "Malagasy ariary",
-      "isSupported": 1
-    },
-    {
-      "index": 82,
-      "country": "Malawi",
-      "coverage": "Telcos",
-      "currency": "MWK",
-      "penetration": "64%",
-      "deliveryETA": "Real-time payments",
-      "label": "Malawian kwacha",
-      "isSupported": 1
-    },
-    {
-      "index": 83,
-      "country": "Malawi",
-      "coverage": "All banks",
-      "currency": "MWK",
-      "penetration": "100%",
-      "deliveryETA": "Same day delivery",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 84,
-      "country": "Malaysia",
-      "coverage": "Mobile wallets",
-      "currency": "MYR",
-      "penetration": "80%",
-      "deliveryETA": "Real-time payments",
-      "label": "ringgit",
-      "isSupported": 1
-    },
-    {
-      "index": 85,
-      "country": "Malaysia",
-      "coverage": "All banks",
-      "currency": "MYR",
-      "penetration": "100%",
-      "deliveryETA": "Real-time payments",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 86,
-      "country": "Mali",
-      "coverage": "",
-      "currency": "XOF",
-      "penetration": "100%",
-      "deliveryETA": "Real-time payments",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 87,
-      "country": "Mali",
-      "coverage": "All Banks",
-      "currency": "XOF",
-      "penetration": "100%",
-      "deliveryETA": "T+1 business days",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 88,
-      "country": "Malta",
-      "coverage": "All banks",
-      "currency": "EUR",
-      "penetration": "100%",
-      "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 89,
-      "country": "Mexico",
-      "coverage": "All banks",
-      "currency": "MXN",
-      "penetration": "100%",
-      "deliveryETA": "All Banks: Real-time\nBacoppel: Within 3hrs",
-      "label": "Mexican peso",
-      "isSupported": 1
-    },
-    {
-      "index": 90,
-      "country": "Monaco",
-      "coverage": "All banks",
-      "currency": "EUR",
-      "penetration": "100%",
-      "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 91,
-      "country": "Mongolia",
-      "coverage": "All banks",
-      "currency": "MNT",
-      "penetration": "100%",
-      "deliveryETA": "Real-time payments",
-      "label": "tugrik",
-      "isSupported": 1
-    },
-    {
-      "index": 92,
-      "country": "Morocco",
-      "coverage": "All banks",
-      "currency": "MAD",
-      "penetration": "100%",
-      "deliveryETA": "Attijariwafa bank accounts: Same day\nOther bank accounts: T+1 business day",
-      "label": "Moroccan dirham",
-      "isSupported": 1
-    },
-    {
-      "index": 93,
-      "country": "Mozambique",
-      "coverage": "Money transfer service",
-      "currency": "MZN",
-      "penetration": "83%",
-      "deliveryETA": "Real-time payments",
-      "label": "metical",
-      "isSupported": 1
-    },
-    {
-      "index": 94,
-      "country": "Myanmar",
-      "coverage": "All banks",
-      "currency": "MMK",
-      "penetration": "100%",
-      "deliveryETA": "T+3 business days",
-      "label": "kyat",
-      "isSupported": 1
-    },
-    {
-      "index": 95,
-      "country": "Nepal",
-      "coverage": "Mobile wallets",
-      "currency": "NPR",
-      "penetration": "95%",
-      "deliveryETA": "Real-time payments",
-      "label": "Nepalese rupee",
-      "isSupported": 1
-    },
-    {
-      "index": 96,
-      "country": "Nepal",
-      "coverage": "All banks",
-      "currency": "NPR",
-      "penetration": "100%",
-      "deliveryETA": "Instant banks: Real-time, 24*7\nNon real-time processing for:\nNepal SBI Bank\nStandard Chartered Bank of Nepal",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 97,
-      "country": "Netherlands",
-      "coverage": "All banks",
-      "currency": "EUR",
-      "penetration": "100%",
-      "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 98,
-      "country": "Niger",
-      "coverage": "All banks",
-      "currency": "XOF",
-      "penetration": "100%",
-      "deliveryETA": "T+1 business day",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 99,
-      "country": "Nigeria",
-      "coverage": "Major banks",
-      "currency": "USD",
-      "penetration": "95%",
-      "deliveryETA": "24 - 48  hours",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 100,
-      "country": "Norway",
-      "coverage": "All banks",
-      "currency": "EUR",
-      "penetration": "100%",
-      "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 101,
-      "country": "Pakistan",
-      "coverage": "All banks",
-      "currency": "PKR",
-      "penetration": "100%",
-      "deliveryETA": "Real-time payments",
-      "label": "Pakistanian rupee",
-      "isSupported": 1
-    },
-    {
-      "index": 102,
-      "country": "Pakistan",
-      "coverage": "Mobile payment services",
-      "currency": "PKR",
-      "penetration": "100%",
-      "deliveryETA": "Real-time payments",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 103,
-      "country": "Panama",
-      "coverage": "All banks",
-      "currency": "USD",
-      "penetration": "100%",
-      "deliveryETA": "Same day delivery",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 104,
-      "country": "Paraguay",
-      "coverage": "All banks",
-      "currency": "PYG",
-      "penetration": "100%",
-      "deliveryETA": "Same day delivery",
-      "label": "guaraní",
-      "isSupported": 1
-    },
-    {
-      "index": 105,
-      "country": "Peru",
-      "coverage": "All banks",
-      "currency": "PEN",
-      "penetration": "100%",
-      "deliveryETA": "Same day delivery",
-      "label": "Nuevo sol",
-      "isSupported": 1
-    },
-    {
-      "index": 106,
-      "country": "Philippines",
-      "coverage": "All banks",
-      "currency": "PHP",
-      "penetration": "100%",
-      "deliveryETA": "Real-time payments up to 50K, same day/ T+1 for 50K+",
-      "label": "Philippine peso",
-      "isSupported": 1
-    },
-    {
-      "index": 107,
-      "country": "Philippines",
-      "coverage": "All banks",
-      "currency": "USD",
-      "penetration": "100%",
-      "deliveryETA": "Same day delivery",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 108,
-      "country": "Philippines",
-      "coverage": "Financial services, mobile payments services",
-      "currency": "PHP",
-      "penetration": "100%",
-      "deliveryETA": "Real-time payments",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 109,
-      "country": "Poland",
-      "coverage": "All banks",
-      "currency": "PLN/EUR",
-      "penetration": "100%",
-      "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
-      "label": "Polish zloty",
-      "isSupported": 1
-    },
-    {
-      "index": 110,
-      "country": "Portugal",
-      "coverage": "All banks",
-      "currency": "EUR",
-      "penetration": "100%",
-      "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 111,
-      "country": "Romania",
-      "coverage": "All banks",
-      "currency": "EUR",
-      "penetration": "100%",
-      "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 112,
-      "country": "Russia",
-      "coverage": "Payment & financial services",
-      "currency": "RUB",
-      "penetration": "50%",
-      "deliveryETA": "Real-time payments",
-      "label": "Russian rubel",
-      "isSupported": 1
-    },
-    {
-      "index": 113,
-      "country": "Russia",
-      "coverage": "All banks^",
-      "currency": "RUB",
-      "penetration": "100%",
-      "deliveryETA": "Real-time payments",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 114,
-      "country": "Rwanda",
-      "coverage": "MNO, telcos",
-      "currency": "RWF",
-      "penetration": "100%",
-      "deliveryETA": "Real-time payments",
-      "label": "Rwandan franc",
-      "isSupported": 1
-    },
-    {
-      "index": 115,
-      "country": "Rwanda",
-      "coverage": "All banks",
-      "currency": "RWF",
-      "penetration": "100%",
-      "deliveryETA": "Same day delivery/T+1 business day",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 116,
-      "country": "San Marino",
-      "coverage": "All banks",
-      "currency": "EUR",
-      "penetration": "100%",
-      "deliveryETA": "SEPA Non-Instant: Same day, T+1 business days",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 117,
-      "country": "Senegal",
-      "coverage": "Mobile wallets, telcos, payment service providers",
-      "currency": "XOF",
-      "penetration": "90%",
-      "deliveryETA": "Real-time payments",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 118,
-      "country": "Senegal",
-      "coverage": "All Banks",
-      "currency": "XOF",
-      "penetration": "100%",
-      "deliveryETA": "T+1 business days",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 119,
-      "country": "Sierra Leone",
-      "coverage": "Mobile money service",
-      "currency": "SLE",
-      "penetration": "51%",
-      "deliveryETA": "Real-time payments",
-      "label": "Sierra Leonean leone",
-      "isSupported": 1
-    },
-    {
-      "index": 120,
-      "country": "Singapore",
-      "coverage": "All banks",
-      "currency": "SGD",
-      "penetration": "100%",
-      "deliveryETA": "Same day delivery",
-      "label": "Singapore dollar",
-      "isSupported": 1
-    },
-    {
-      "index": 121,
-      "country": "Slovakia",
-      "coverage": "All banks",
-      "currency": "EUR",
-      "penetration": "100%",
-      "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 122,
-      "country": "Slovenia",
-      "coverage": "All banks",
-      "currency": "EUR",
-      "penetration": "100%",
-      "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 123,
-      "country": "South Africa",
-      "coverage": "All banks",
-      "currency": "ZAR",
-      "penetration": "100%",
-      "deliveryETA": "Same day delivery",
-      "label": "South African rand",
-      "isSupported": 1
-    },
-    {
-      "index": 124,
-      "country": "South Korea",
-      "coverage": "All banks",
-      "currency": "KRW",
-      "penetration": "100%",
-      "deliveryETA": "Real-time payments",
-      "label": "South Korean won",
-      "isSupported": 1
-    },
-    {
-      "index": 125,
-      "country": "South Sudan",
-      "coverage": "Mobile wallets, MNOs",
-      "currency": "SSP/USD",
-      "penetration": "50%",
-      "deliveryETA": "Real-time payments",
-      "label": "South Sudanese pound/US dollar",
-      "isSupported": 1
-    },
-    {
-      "index": 126,
-      "country": "Spain",
-      "coverage": "All banks",
-      "currency": "EUR",
-      "penetration": "100%",
-      "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 127,
-      "country": "Sri Lanka",
-      "coverage": "All banks",
-      "currency": "LKR/USD",
-      "penetration": "100%",
-      "deliveryETA": "Real-time payments",
-      "label": "Sri Lankan rupee/US dollar",
-      "isSupported": 1
-    },
-    {
-      "index": 128,
-      "country": "Sweden",
-      "coverage": "All banks",
-      "currency": "EUR",
-      "penetration": "100%",
-      "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 129,
-      "country": "Switzerland",
-      "coverage": "All banks",
-      "currency": "EUR",
-      "penetration": "100%",
-      "deliveryETA": "SEPA Non-Instant: Same day, T+1 business days",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 130,
-      "country": "Tanzania",
-      "coverage": "Telcos",
-      "currency": "TZS",
-      "penetration": "87%",
-      "deliveryETA": "Real-time payments",
-      "label": "Tansanian shilling",
-      "isSupported": 1
-    },
-    {
-      "index": 131,
-      "country": "Tanzania",
-      "coverage": "All banks",
-      "currency": "TZS",
-      "penetration": "100%",
-      "deliveryETA": "Same day delivery/T+1 business day",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 132,
-      "country": "Thailand",
-      "coverage": "All banks",
-      "currency": "THB",
-      "penetration": "100%",
-      "deliveryETA": "Real-time payments",
-      "label": "Thai baht",
-      "isSupported": 1
-    },
-    {
-      "index": 133,
-      "country": "Togo",
-      "coverage": "Telcos",
-      "currency": "XOF",
-      "penetration": "50%",
-      "deliveryETA": "Real-time payments",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 134,
-      "country": "Togo",
-      "coverage": "All Banks",
-      "currency": "XOF",
-      "penetration": "100%",
-      "deliveryETA": "T+1 business days",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 135,
-      "country": "Turkey",
-      "coverage": "All banks",
-      "currency": "TRY",
-      "penetration": "100%",
-      "deliveryETA": "Real-time deliveries",
-      "label": "Turkish lira",
-      "isSupported": 1
-    },
-    {
-      "index": 136,
-      "country": "Turkey",
-      "coverage": "MTOs",
-      "currency": "TRY/USD/EUR",
-      "penetration": "100%",
-      "deliveryETA": "Real-time payments",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 137,
-      "country": "UAE",
-      "coverage": "All banks",
-      "currency": "AED",
-      "penetration": "100%",
-      "deliveryETA": "Same day/T+1 business day",
-      "label": "Arabic dirham",
-      "isSupported": 1
-    },
-    {
-      "index": 138,
-      "country": "Uganda",
-      "coverage": "MNO, telcos",
-      "currency": "UGX",
-      "penetration": "86%",
-      "deliveryETA": "Real-time payments",
-      "label": "Ugandan shilling",
-      "isSupported": 1
-    },
-    {
-      "index": 139,
-      "country": "Uganda",
-      "coverage": "All banks",
-      "currency": "UGX",
-      "penetration": "100%",
-      "deliveryETA": "Same day/T+1 business day",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 140,
-      "country": "Ukraine",
-      "coverage": "All banks",
-      "currency": "UAH",
-      "penetration": "100%",
-      "deliveryETA": "Real-time payments",
-      "label": "hrywnja",
-      "isSupported": 1
-    },
-    {
-      "index": 141,
-      "country": "United Kingdom",
-      "coverage": "All banks",
-      "currency": "GBP/EUR",
-      "penetration": "100%",
-      "deliveryETA": "Real-time payments",
-      "label": "Sterling pound",
-      "isSupported": 1
-    },
-    {
-      "index": 142,
-      "country": "Uruguay",
-      "coverage": "All banks",
-      "currency": "UYU",
-      "penetration": "100%",
-      "deliveryETA": "Same day delivery",
-      "label": "Uruguay peso",
-      "isSupported": 1
-    },
-    {
-      "index": 143,
-      "country": "USA",
-      "coverage": "All banks",
-      "currency": "USD",
-      "penetration": "100%",
-      "deliveryETA": "Same day/T+1 business day",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 144,
-      "country": "Vatican City State",
-      "coverage": "All banks",
-      "currency": "EUR",
-      "penetration": "100%",
-      "deliveryETA": "SEPA Non-Instant: Same day, T+1 business days",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 145,
-      "country": "Vietnam",
-      "coverage": "Mobile payment services, mobile wallets",
-      "currency": "VND",
-      "penetration": "95%",
-      "deliveryETA": "Real-time payments",
-      "label": "dong",
-      "isSupported": 1
-    },
-    {
-      "index": 146,
-      "country": "Vietnam",
-      "coverage": "All banks",
-      "currency": "VND",
-      "penetration": "100%",
-      "deliveryETA": "Real-time payments",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 147,
-      "country": "Vietnam",
-      "coverage": "All banks",
-      "currency": "USD",
-      "penetration": "100%",
-      "deliveryETA": "Same day/T+1 business day",
-      "label": "",
-      "isSupported": 0
-    },
-    {
-      "index": 148,
-      "country": "Zambia",
-      "coverage": "Telcos, MNO",
-      "currency": "ZMW",
-      "penetration": "50%",
-      "deliveryETA": "Real-time payments",
-      "label": "Zambian kwacha",
-      "isSupported": 1
-    },
-    {
-      "index": 149,
-      "country": "Zimbabwe",
-      "coverage": "Financial services company",
-      "currency": "USD",
-      "penetration": "63%",
-      "deliveryETA": "Real-time payments",
-      "label": "",
-      "isSupported": 0
-    }
-  ]
+  {
+    "index": 1,
+    "country": "Aland Islands",
+    "coverage": "All banks",
+    "currency": "EUR",
+    "penetration": "100%",
+    "deliveryETA": "Same business day",
+    "label": "euro",
+    "isSupported": 1
+  },
+  {
+    "index": 155,
+    "currency": "HKD",
+    "label": "Hong Kong dollar",
+    "isSupported": -1
+  },
+  {
+    "index": 2,
+    "country": "Andorra",
+    "coverage": "All banks",
+    "currency": "EUR",
+    "penetration": "100%",
+    "deliveryETA": "Same business day",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 3,
+    "country": "Argentina",
+    "coverage": "All banks",
+    "currency": "ARS",
+    "penetration": "100%",
+    "deliveryETA": "Same day delivery",
+    "label": "Argentine peso",
+    "isSupported": 1
+  },
+  {
+    "index": 4,
+    "country": "Australia",
+    "coverage": "All banks",
+    "currency": "AUD",
+    "penetration": "100%",
+    "deliveryETA": "Same day delivery",
+    "label": "Australian dollar",
+    "isSupported": 1
+  },
+  {
+    "index": 5,
+    "country": "Austria",
+    "coverage": "All banks",
+    "currency": "EUR",
+    "penetration": "100%",
+    "deliveryETA": "SEPA Instant: 24*7, Real-time, \nSEPA Non-Instant: Same day, T+1 business days",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 6,
+    "country": "Bahrain",
+    "coverage": "All banks",
+    "currency": "BHD",
+    "penetration": "100%",
+    "deliveryETA": "Same day delivery",
+    "label": "Bahrain dinar",
+    "isSupported": 1
+  },
+  {
+    "index": 7,
+    "country": "Bangladesh",
+    "coverage": "Mobile & digital financial services",
+    "currency": "BDT",
+    "penetration": "95%",
+    "deliveryETA": "Real-time payments",
+    "label": "taka",
+    "isSupported": 1
+  },
+  {
+    "index": 8,
+    "country": "Bangladesh",
+    "coverage": "All banks",
+    "currency": "BDT",
+    "penetration": "100%",
+    "deliveryETA": "Same day/ T+1 business days",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 9,
+    "country": "Belgium",
+    "coverage": "All banks",
+    "currency": "EUR",
+    "penetration": "100%",
+    "deliveryETA": "SEPA Instant: 24*7, Real-time, \nSEPA Non-Instant: Same day, T+1 business days",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 10,
+    "country": "Benin",
+    "coverage": "All banks, telcos",
+    "currency": "XOF",
+    "penetration": "100%",
+    "deliveryETA": "T+1 business days, real-time mobile payments",
+    "label": "cfa-franc bceao",
+    "isSupported": 1
+  },
+  {
+    "index": 11,
+    "country": "Bolivia",
+    "coverage": "All banks",
+    "currency": "BOB",
+    "penetration": "100%",
+    "deliveryETA": "Same day delivery",
+    "label": "boliviano",
+    "isSupported": 1
+  },
+  {
+    "index": 12,
+    "country": "Botswana",
+    "coverage": "Digital wallet",
+    "currency": "BWP",
+    "penetration": "80%",
+    "deliveryETA": "Real-time payments",
+    "label": "pula",
+    "isSupported": 1
+  },
+  {
+    "index": 13,
+    "country": "Brazil",
+    "coverage": "All banks",
+    "currency": "BRL",
+    "penetration": "100%",
+    "deliveryETA": "Instant PIX Transactions & same day delivery",
+    "label": "Brazilian real",
+    "isSupported": 1
+  },
+  {
+    "index": 14,
+    "country": "Brunei",
+    "coverage": "All banks",
+    "currency": "BND",
+    "penetration": "100%",
+    "deliveryETA": "Same day/ T+1 business days",
+    "label": "Brunei dollar",
+    "isSupported": 1
+  },
+  {
+    "index": 15,
+    "country": "Bulgaria",
+    "coverage": "All banks",
+    "currency": "EUR",
+    "penetration": "100%",
+    "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 16,
+    "country": "Burkina Faso",
+    "coverage": "Telcos & MNOs",
+    "currency": "XOF",
+    "penetration": "84%",
+    "deliveryETA": "Same day/T+1 business day",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 17,
+    "country": "Burkina Faso",
+    "coverage": "All Banks",
+    "currency": "XOF",
+    "penetration": "100%",
+    "deliveryETA": "T+1 business days",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 18,
+    "country": "Burundi",
+    "coverage": "Financial services",
+    "currency": "BIF",
+    "penetration": "59%",
+    "deliveryETA": "Real-time payments",
+    "label": "Burundi franc",
+    "isSupported": 1
+  },
+  {
+    "index": 19,
+    "country": "Cambodia",
+    "coverage": "Mobile wallet",
+    "currency": "USD",
+    "penetration": "70%",
+    "deliveryETA": "Real-time payments",
+    "label": "US dollar",
+    "isSupported": 1
+  },
+  {
+    "index": 20,
+    "country": "Cambodia",
+    "coverage": "All banks",
+    "currency": "USD",
+    "penetration": "100%",
+    "deliveryETA": "Real-time payments",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 154,
+    "currency": "MNT",
+    "label": "tugrik",
+    "isSupported": -1
+  },
+  {
+    "index": 21,
+    "country": "Cameroon",
+    "coverage": "UBA bank accounts",
+    "currency": "XAF",
+    "penetration": "50%",
+    "deliveryETA": "Real-time payments",
+    "label": "cfa-franc beac",
+    "isSupported": 1
+  },
+  {
+    "index": 22,
+    "country": "Cameroon",
+    "coverage": "MNOs",
+    "currency": "XAF",
+    "penetration": "89%",
+    "deliveryETA": "Real-time payments",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 23,
+    "country": "Canada",
+    "coverage": "All banks",
+    "currency": "CAD",
+    "penetration": "100%",
+    "deliveryETA": "Same day/ T+1 business days",
+    "label": "Canadian dollar",
+    "isSupported": 1
+  },
+  {
+    "index": 24,
+    "country": "Central African \nRepublic",
+    "coverage": "MNO",
+    "currency": "XAF",
+    "penetration": "80%",
+    "deliveryETA": "Real-time payments",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 25,
+    "country": "Chad",
+    "coverage": "Telcos",
+    "currency": "XAF",
+    "penetration": "75%",
+    "deliveryETA": "Real-time payments",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 26,
+    "country": "Chile",
+    "coverage": "All banks",
+    "currency": "CLP",
+    "penetration": "100%",
+    "deliveryETA": "Same day delivery",
+    "label": "Chilean peso",
+    "isSupported": 1
+  },
+  {
+    "index": 27,
+    "country": "China",
+    "coverage": "Mobile wallets",
+    "currency": "CNY",
+    "penetration": "95%",
+    "deliveryETA": "Real-time payments",
+    "label": "Renminbi yuan",
+    "isSupported": 1
+  },
+  {
+    "index": 28,
+    "country": "China",
+    "coverage": "Union Pay Cards (Banks)",
+    "currency": "CNY",
+    "penetration": "100%",
+    "deliveryETA": "Same day delivery",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 29,
+    "country": "Colombia",
+    "coverage": "Mobile wallet",
+    "currency": "COP",
+    "penetration": "80%",
+    "deliveryETA": "Instant (One-time registration required)",
+    "label": "Colombian peso",
+    "isSupported": 1
+  },
+  {
+    "index": 30,
+    "country": "Colombia",
+    "coverage": "All banks",
+    "currency": "COP",
+    "penetration": "100%",
+    "deliveryETA": "Same day delivery",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 31,
+    "country": "Congo B",
+    "coverage": "Telcos & MNOs",
+    "currency": "XAF",
+    "penetration": "50%",
+    "deliveryETA": "Real-time payments",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 32,
+    "country": "Croatia",
+    "coverage": "All banks",
+    "currency": "EUR",
+    "penetration": "100%",
+    "deliveryETA": "SEPA Non-Instant: Same day, T+1 business days",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 33,
+    "country": "Cyprus",
+    "coverage": "All banks",
+    "currency": "EUR",
+    "penetration": "100%",
+    "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 34,
+    "country": "Czech Republic",
+    "coverage": "All banks",
+    "currency": "EUR",
+    "penetration": "100%",
+    "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 35,
+    "country": "Denmark",
+    "coverage": "All banks",
+    "currency": "EUR",
+    "penetration": "100%",
+    "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 36,
+    "country": "DRC",
+    "coverage": "Telcos",
+    "currency": "CDF/USD",
+    "penetration": "50%",
+    "deliveryETA": "Real-time payments",
+    "label": "Congolais franc/ US dollar",
+    "isSupported": 1
+  },
+  {
+    "index": 37,
+    "country": "DRC",
+    "coverage": "All banks*",
+    "currency": "CDF/USD",
+    "penetration": "100%",
+    "deliveryETA": "WIP",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 38,
+    "country": "Ecuador",
+    "coverage": "All banks",
+    "currency": "USD",
+    "penetration": "100%",
+    "deliveryETA": "Same day delivery",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 39,
+    "country": "Egypt",
+    "coverage": "All banks",
+    "currency": "EGP/USD",
+    "penetration": "100%",
+    "deliveryETA": "EGP: Same day/T+1 business days\nUSD: Same day/T+2 business days",
+    "label": "Egyptian pound/ US dollar",
+    "isSupported": 1
+  },
+  {
+    "index": 40,
+    "country": "Estonia",
+    "coverage": "All banks",
+    "currency": "EUR",
+    "penetration": "100%",
+    "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 41,
+    "country": "Ethiopia",
+    "coverage": "All banks",
+    "currency": "ETB",
+    "penetration": "100%",
+    "deliveryETA": "Same day delivery",
+    "label": "birr",
+    "isSupported": 1
+  },
+  {
+    "index": 42,
+    "country": "Finland",
+    "coverage": "All banks",
+    "currency": "EUR",
+    "penetration": "100%",
+    "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 43,
+    "country": "France",
+    "coverage": "All banks",
+    "currency": "EUR",
+    "penetration": "100%",
+    "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 44,
+    "country": "Gabon",
+    "coverage": "Telcos",
+    "currency": "XAF",
+    "penetration": "50%",
+    "deliveryETA": "Real-time payments",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 45,
+    "country": "Gambia",
+    "coverage": "All Banks",
+    "currency": "GMD",
+    "penetration": "100%",
+    "deliveryETA": "Same day delivery",
+    "label": "dalasi",
+    "isSupported": 1
+  },
+  {
+    "index": 46,
+    "country": "Gambia",
+    "coverage": "MNO, mobile wallets",
+    "currency": "GMD",
+    "penetration": "",
+    "deliveryETA": "Real-time payments",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 47,
+    "country": "Georgia",
+    "coverage": "All banks",
+    "currency": "GEL",
+    "penetration": "100%",
+    "deliveryETA": "Same day delivery/T+1 business day",
+    "label": "Georgian lari",
+    "isSupported": 1
+  },
+  {
+    "index": 48,
+    "country": "Germany",
+    "coverage": "All banks",
+    "currency": "EUR",
+    "penetration": "100%",
+    "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 49,
+    "country": "Ghana",
+    "coverage": "Telcos & MNOs",
+    "currency": "GHS",
+    "penetration": "98%",
+    "deliveryETA": "Real-time payments",
+    "label": "Ghana cedi",
+    "isSupported": 1
+  },
+  {
+    "index": 50,
+    "country": "Ghana",
+    "coverage": "All banks",
+    "currency": "GHS",
+    "penetration": "100%",
+    "deliveryETA": "Real-time payments",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 51,
+    "country": "Gibraltar",
+    "coverage": "All banks",
+    "currency": "EUR",
+    "penetration": "100%",
+    "deliveryETA": "SEPA Non-Instant: Same day, T+1 business days",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 52,
+    "country": "Greece",
+    "coverage": "All banks",
+    "currency": "EUR",
+    "penetration": "100%",
+    "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 53,
+    "country": "Guernsey",
+    "coverage": "All banks",
+    "currency": "EUR",
+    "penetration": "100%",
+    "deliveryETA": "SEPA Non-Instant: Same day, T+1 business days",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 156,
+    "currency": "CRC",
+    "label": "colón",
+    "isSupported": -1
+  },
+  {
+    "index": 54,
+    "country": "Guinea Bissau",
+    "coverage": "MNOs",
+    "currency": "XOF",
+    "penetration": "52%",
+    "deliveryETA": "Real-time payments",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 55,
+    "country": "Guinea Bissau",
+    "coverage": "All Banks",
+    "currency": "XOF",
+    "penetration": "100%",
+    "deliveryETA": "T+1 business days",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 56,
+    "country": "Guinea Conakry",
+    "coverage": "MNOs",
+    "currency": "GNF",
+    "penetration": "50%",
+    "deliveryETA": "Real-time payments",
+    "label": "Guinea franc",
+    "isSupported": 1
+  },
+  {
+    "index": 57,
+    "country": "Haiti",
+    "coverage": "Money management service",
+    "currency": "HTG",
+    "penetration": "100%",
+    "deliveryETA": "Real-time payments",
+    "label": "gourde",
+    "isSupported": 1
+  },
+  {
+    "index": 58,
+    "country": "Hungary",
+    "coverage": "All banks",
+    "currency": "EUR",
+    "penetration": "100%",
+    "deliveryETA": "SEPA Non-Instant: Same day, T+1 business days",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 59,
+    "country": "Iceland",
+    "coverage": "All banks",
+    "currency": "EUR",
+    "penetration": "100%",
+    "deliveryETA": "SEPA Non-Instant: Same day, T+1 business days",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 60,
+    "country": "India",
+    "coverage": "All banks",
+    "currency": "INR",
+    "penetration": "100%",
+    "deliveryETA": "Real-time payments for UPI/IMPS, NEFT: 30 minutes",
+    "label": "Indian rupee",
+    "isSupported": 1
+  },
+  {
+    "index": 61,
+    "country": "Indonesia",
+    "coverage": "Financial & digital payments services",
+    "currency": "IDR",
+    "penetration": "65%",
+    "deliveryETA": "Real-time payments",
+    "label": "Indonesian rupiah",
+    "isSupported": 1
+  },
+  {
+    "index": 62,
+    "country": "Indonesia",
+    "coverage": "All banks",
+    "currency": "IDR",
+    "penetration": "100%",
+    "deliveryETA": "Real-time payments",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 63,
+    "country": "Iraq",
+    "coverage": "All banks",
+    "currency": "IQD",
+    "penetration": "100%",
+    "deliveryETA": "WIP",
+    "label": "Iraqi dinar",
+    "isSupported": 1
+  },
+  {
+    "index": 64,
+    "country": "Ireland",
+    "coverage": "All banks",
+    "currency": "EUR",
+    "penetration": "100%",
+    "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 65,
+    "country": "Isle of Man",
+    "coverage": "All banks",
+    "currency": "EUR",
+    "penetration": "100%",
+    "deliveryETA": "SEPA Non-Instant: Same day, T+1 business days",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 66,
+    "country": "Israel",
+    "coverage": "All banks*",
+    "currency": "ILS",
+    "penetration": "100%",
+    "deliveryETA": "Neema accounts: Same day delivery \nOther accounts: T+1 business day",
+    "label": "New Israeli sheqel",
+    "isSupported": 1
+  },
+  {
+    "index": 67,
+    "country": "Italy",
+    "coverage": "All banks",
+    "currency": "EUR",
+    "penetration": "100%",
+    "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 68,
+    "country": "Ivory Coast",
+    "coverage": "All Banks",
+    "currency": "XOF",
+    "penetration": "100%",
+    "deliveryETA": "T+1 business day",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 69,
+    "country": "Ivory Coast",
+    "coverage": "Mobile money services, MNOs & telcos",
+    "currency": "XOF",
+    "penetration": "100%",
+    "deliveryETA": "Real-time payments",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 70,
+    "country": "Jersey",
+    "coverage": "All banks",
+    "currency": "EUR",
+    "penetration": "100%",
+    "deliveryETA": "SEPA Non-Instant: Same day, T+1 business days",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 71,
+    "country": "Jordan",
+    "coverage": "All banks**",
+    "currency": "JOD",
+    "penetration": "100%",
+    "deliveryETA": "Same day/T+1 business day",
+    "label": "Jordanian dinar",
+    "isSupported": 1
+  },
+  {
+    "index": 72,
+    "country": "Kenya",
+    "coverage": "Telcos & Money transfer service",
+    "currency": "KES",
+    "penetration": "98%",
+    "deliveryETA": "Real-time payments",
+    "label": "Kenyan shilling",
+    "isSupported": 1
+  },
+  {
+    "index": 73,
+    "country": "Kenya",
+    "coverage": "All banks",
+    "currency": "KES",
+    "penetration": "100%",
+    "deliveryETA": "Same day/T+1 business day",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 74,
+    "country": "Laos",
+    "coverage": "All banks",
+    "currency": "USD",
+    "penetration": "100%",
+    "deliveryETA": "T+3 business days",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 75,
+    "country": "Latvia",
+    "coverage": "All banks",
+    "currency": "EUR",
+    "penetration": "100%",
+    "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 76,
+    "country": "Liberia",
+    "coverage": "UBA bank accounts",
+    "currency": "USD",
+    "penetration": "50%",
+    "deliveryETA": "Real-time payments",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 77,
+    "country": "Liberia",
+    "coverage": "MNOs",
+    "currency": "USD",
+    "penetration": "50%",
+    "deliveryETA": "Real-time payments",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 78,
+    "country": "Liechtenstein",
+    "coverage": "All banks",
+    "currency": "EUR",
+    "penetration": "100%",
+    "deliveryETA": "SEPA Non-Instant: Same day, T+1 business days",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 79,
+    "country": "Lithuania",
+    "coverage": "All banks",
+    "currency": "EUR",
+    "penetration": "100%",
+    "deliveryETA": "SEPA Non-Instant: Same day, T+1 business days",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 80,
+    "country": "Luxembourg",
+    "coverage": "All banks",
+    "currency": "EUR",
+    "penetration": "100%",
+    "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 81,
+    "country": "Madagascar",
+    "coverage": "Telcos",
+    "currency": "MGA",
+    "penetration": "50%",
+    "deliveryETA": "Real-time payments",
+    "label": "Malagasy ariary",
+    "isSupported": 1
+  },
+  {
+    "index": 82,
+    "country": "Malawi",
+    "coverage": "Telcos",
+    "currency": "MWK",
+    "penetration": "64%",
+    "deliveryETA": "Real-time payments",
+    "label": "Malawian kwacha",
+    "isSupported": 1
+  },
+  {
+    "index": 83,
+    "country": "Malawi",
+    "coverage": "All banks",
+    "currency": "MWK",
+    "penetration": "100%",
+    "deliveryETA": "Same day delivery",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 153,
+    "currency": "SCR",
+    "label": "Seychelles rupee",
+    "isSupported": -1
+  },
+  {
+    "index": 84,
+    "country": "Malaysia",
+    "coverage": "Mobile wallets",
+    "currency": "MYR",
+    "penetration": "80%",
+    "deliveryETA": "Real-time payments",
+    "label": "ringgit",
+    "isSupported": 1
+  },
+  {
+    "index": 85,
+    "country": "Malaysia",
+    "coverage": "All banks",
+    "currency": "MYR",
+    "penetration": "100%",
+    "deliveryETA": "Real-time payments",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 86,
+    "country": "Mali",
+    "coverage": "",
+    "currency": "XOF",
+    "penetration": "100%",
+    "deliveryETA": "Real-time payments",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 87,
+    "country": "Mali",
+    "coverage": "All Banks",
+    "currency": "XOF",
+    "penetration": "100%",
+    "deliveryETA": "T+1 business days",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 88,
+    "country": "Malta",
+    "coverage": "All banks",
+    "currency": "EUR",
+    "penetration": "100%",
+    "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 89,
+    "country": "Mexico",
+    "coverage": "All banks",
+    "currency": "MXN",
+    "penetration": "100%",
+    "deliveryETA": "All Banks: Real-time\nBacoppel: Within 3hrs",
+    "label": "Mexican peso",
+    "isSupported": 1
+  },
+  {
+    "index": 90,
+    "country": "Monaco",
+    "coverage": "All banks",
+    "currency": "EUR",
+    "penetration": "100%",
+    "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 91,
+    "country": "Mongolia",
+    "coverage": "All banks",
+    "currency": "MNT",
+    "penetration": "100%",
+    "deliveryETA": "Real-time payments",
+    "label": "tugrik",
+    "isSupported": 1
+  },
+  {
+    "index": 92,
+    "country": "Morocco",
+    "coverage": "All banks",
+    "currency": "MAD",
+    "penetration": "100%",
+    "deliveryETA": "Attijariwafa bank accounts: Same day\nOther bank accounts: T+1 business day",
+    "label": "Moroccan dirham",
+    "isSupported": 1
+  },
+  {
+    "index": 93,
+    "country": "Mozambique",
+    "coverage": "Money transfer service",
+    "currency": "MZN",
+    "penetration": "83%",
+    "deliveryETA": "Real-time payments",
+    "label": "metical",
+    "isSupported": 1
+  },
+  {
+    "index": 94,
+    "country": "Myanmar",
+    "coverage": "All banks",
+    "currency": "MMK",
+    "penetration": "100%",
+    "deliveryETA": "T+3 business days",
+    "label": "kyat",
+    "isSupported": 1
+  },
+  {
+    "index": 95,
+    "country": "Nepal",
+    "coverage": "Mobile wallets",
+    "currency": "NPR",
+    "penetration": "95%",
+    "deliveryETA": "Real-time payments",
+    "label": "Nepalese rupee",
+    "isSupported": 1
+  },
+  {
+    "index": 96,
+    "country": "Nepal",
+    "coverage": "All banks",
+    "currency": "NPR",
+    "penetration": "100%",
+    "deliveryETA": "Instant banks: Real-time, 24*7\nNon real-time processing for:\nNepal SBI Bank\nStandard Chartered Bank of Nepal",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 97,
+    "country": "Netherlands",
+    "coverage": "All banks",
+    "currency": "EUR",
+    "penetration": "100%",
+    "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 98,
+    "country": "Niger",
+    "coverage": "All banks",
+    "currency": "XOF",
+    "penetration": "100%",
+    "deliveryETA": "T+1 business day",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 99,
+    "country": "Nigeria",
+    "coverage": "Major banks",
+    "currency": "USD",
+    "penetration": "95%",
+    "deliveryETA": "24 - 48  hours",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 100,
+    "country": "Norway",
+    "coverage": "All banks",
+    "currency": "EUR",
+    "penetration": "100%",
+    "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 101,
+    "country": "Pakistan",
+    "coverage": "All banks",
+    "currency": "PKR",
+    "penetration": "100%",
+    "deliveryETA": "Real-time payments",
+    "label": "Pakistanian rupee",
+    "isSupported": 1
+  },
+  {
+    "index": 102,
+    "country": "Pakistan",
+    "coverage": "Mobile payment services",
+    "currency": "PKR",
+    "penetration": "100%",
+    "deliveryETA": "Real-time payments",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 103,
+    "country": "Panama",
+    "coverage": "All banks",
+    "currency": "USD",
+    "penetration": "100%",
+    "deliveryETA": "Same day delivery",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 152,
+    "currency": "JPY",
+    "label": "Japanese yen",
+    "isSupported": -1
+  },
+  {
+    "index": 104,
+    "country": "Paraguay",
+    "coverage": "All banks",
+    "currency": "PYG",
+    "penetration": "100%",
+    "deliveryETA": "Same day delivery",
+    "label": "guaraní",
+    "isSupported": 1
+  },
+  {
+    "index": 105,
+    "country": "Peru",
+    "coverage": "All banks",
+    "currency": "PEN",
+    "penetration": "100%",
+    "deliveryETA": "Same day delivery",
+    "label": "Nuevo sol",
+    "isSupported": 1
+  },
+  {
+    "index": 106,
+    "country": "Philippines",
+    "coverage": "All banks",
+    "currency": "PHP",
+    "penetration": "100%",
+    "deliveryETA": "Real-time payments up to 50K, same day/ T+1 for 50K+",
+    "label": "Philippine peso",
+    "isSupported": 1
+  },
+  {
+    "index": 107,
+    "country": "Philippines",
+    "coverage": "All banks",
+    "currency": "USD",
+    "penetration": "100%",
+    "deliveryETA": "Same day delivery",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 108,
+    "country": "Philippines",
+    "coverage": "Financial services, mobile payments services",
+    "currency": "PHP",
+    "penetration": "100%",
+    "deliveryETA": "Real-time payments",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 109,
+    "country": "Poland",
+    "coverage": "All banks",
+    "currency": "PLN/EUR",
+    "penetration": "100%",
+    "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
+    "label": "Polish zloty",
+    "isSupported": 1
+  },
+  {
+    "index": 110,
+    "country": "Portugal",
+    "coverage": "All banks",
+    "currency": "EUR",
+    "penetration": "100%",
+    "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 111,
+    "country": "Romania",
+    "coverage": "All banks",
+    "currency": "EUR",
+    "penetration": "100%",
+    "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 112,
+    "country": "Russia",
+    "coverage": "Payment & financial services",
+    "currency": "RUB",
+    "penetration": "50%",
+    "deliveryETA": "Real-time payments",
+    "label": "Russian rubel",
+    "isSupported": 1
+  },
+  {
+    "index": 113,
+    "country": "Russia",
+    "coverage": "All banks^",
+    "currency": "RUB",
+    "penetration": "100%",
+    "deliveryETA": "Real-time payments",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 114,
+    "country": "Rwanda",
+    "coverage": "MNO, telcos",
+    "currency": "RWF",
+    "penetration": "100%",
+    "deliveryETA": "Real-time payments",
+    "label": "Rwandan franc",
+    "isSupported": 1
+  },
+  {
+    "index": 115,
+    "country": "Rwanda",
+    "coverage": "All banks",
+    "currency": "RWF",
+    "penetration": "100%",
+    "deliveryETA": "Same day delivery/T+1 business day",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 150,
+    "currency": "SAR",
+    "label": "Saudi rial",
+    "isSupported": -1
+  },
+  {
+    "index": 116,
+    "country": "San Marino",
+    "coverage": "All banks",
+    "currency": "EUR",
+    "penetration": "100%",
+    "deliveryETA": "SEPA Non-Instant: Same day, T+1 business days",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 117,
+    "country": "Senegal",
+    "coverage": "Mobile wallets, telcos, payment service providers",
+    "currency": "XOF",
+    "penetration": "90%",
+    "deliveryETA": "Real-time payments",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 118,
+    "country": "Senegal",
+    "coverage": "All Banks",
+    "currency": "XOF",
+    "penetration": "100%",
+    "deliveryETA": "T+1 business days",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 119,
+    "country": "Sierra Leone",
+    "coverage": "Mobile money service",
+    "currency": "SLE",
+    "penetration": "51%",
+    "deliveryETA": "Real-time payments",
+    "label": "Sierra Leonean leone",
+    "isSupported": 1
+  },
+  {
+    "index": 120,
+    "country": "Singapore",
+    "coverage": "All banks",
+    "currency": "SGD",
+    "penetration": "100%",
+    "deliveryETA": "Same day delivery",
+    "label": "Singapore dollar",
+    "isSupported": 1
+  },
+  {
+    "index": 121,
+    "country": "Slovakia",
+    "coverage": "All banks",
+    "currency": "EUR",
+    "penetration": "100%",
+    "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 122,
+    "country": "Slovenia",
+    "coverage": "All banks",
+    "currency": "EUR",
+    "penetration": "100%",
+    "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 123,
+    "country": "South Africa",
+    "coverage": "All banks",
+    "currency": "ZAR",
+    "penetration": "100%",
+    "deliveryETA": "Same day delivery",
+    "label": "South African rand",
+    "isSupported": 1
+  },
+  {
+    "index": 124,
+    "country": "South Korea",
+    "coverage": "All banks",
+    "currency": "KRW",
+    "penetration": "100%",
+    "deliveryETA": "Real-time payments",
+    "label": "South Korean won",
+    "isSupported": 1
+  },
+  {
+    "index": 125,
+    "country": "South Sudan",
+    "coverage": "Mobile wallets, MNOs",
+    "currency": "SSP/USD",
+    "penetration": "50%",
+    "deliveryETA": "Real-time payments",
+    "label": "South Sudanese pound/US dollar",
+    "isSupported": 1
+  },
+  {
+    "index": 126,
+    "country": "Spain",
+    "coverage": "All banks",
+    "currency": "EUR",
+    "penetration": "100%",
+    "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 127,
+    "country": "Sri Lanka",
+    "coverage": "All banks",
+    "currency": "LKR/USD",
+    "penetration": "100%",
+    "deliveryETA": "Real-time payments",
+    "label": "Sri Lankan rupee/US dollar",
+    "isSupported": 1
+  },
+  {
+    "index": 128,
+    "country": "Sweden",
+    "coverage": "All banks",
+    "currency": "EUR",
+    "penetration": "100%",
+    "deliveryETA": "SEPA Instant: 24*7, Real-time, SEPA Non-Instant: Same day, T+1 business days",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 129,
+    "country": "Switzerland",
+    "coverage": "All banks",
+    "currency": "EUR",
+    "penetration": "100%",
+    "deliveryETA": "SEPA Non-Instant: Same day, T+1 business days",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 130,
+    "country": "Tanzania",
+    "coverage": "Telcos",
+    "currency": "TZS",
+    "penetration": "87%",
+    "deliveryETA": "Real-time payments",
+    "label": "Tansanian shilling",
+    "isSupported": 1
+  },
+  {
+    "index": 131,
+    "country": "Tanzania",
+    "coverage": "All banks",
+    "currency": "TZS",
+    "penetration": "100%",
+    "deliveryETA": "Same day delivery/T+1 business day",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 132,
+    "country": "Thailand",
+    "coverage": "All banks",
+    "currency": "THB",
+    "penetration": "100%",
+    "deliveryETA": "Real-time payments",
+    "label": "Thai baht",
+    "isSupported": 1
+  },
+  {
+    "index": 133,
+    "country": "Togo",
+    "coverage": "Telcos",
+    "currency": "XOF",
+    "penetration": "50%",
+    "deliveryETA": "Real-time payments",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 134,
+    "country": "Togo",
+    "coverage": "All Banks",
+    "currency": "XOF",
+    "penetration": "100%",
+    "deliveryETA": "T+1 business days",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 135,
+    "country": "Turkey",
+    "coverage": "All banks",
+    "currency": "TRY",
+    "penetration": "100%",
+    "deliveryETA": "Real-time deliveries",
+    "label": "Turkish lira",
+    "isSupported": 1
+  },
+  {
+    "index": 136,
+    "country": "Turkey",
+    "coverage": "MTOs",
+    "currency": "TRY/USD/EUR",
+    "penetration": "100%",
+    "deliveryETA": "Real-time payments",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 137,
+    "country": "UAE",
+    "coverage": "All banks",
+    "currency": "AED",
+    "penetration": "100%",
+    "deliveryETA": "Same day/T+1 business day",
+    "label": "Arabic dirham",
+    "isSupported": 1
+  },
+  {
+    "index": 138,
+    "country": "Uganda",
+    "coverage": "MNO, telcos",
+    "currency": "UGX",
+    "penetration": "86%",
+    "deliveryETA": "Real-time payments",
+    "label": "Ugandan shilling",
+    "isSupported": 1
+  },
+  {
+    "index": 139,
+    "country": "Uganda",
+    "coverage": "All banks",
+    "currency": "UGX",
+    "penetration": "100%",
+    "deliveryETA": "Same day/T+1 business day",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 140,
+    "country": "Ukraine",
+    "coverage": "All banks",
+    "currency": "UAH",
+    "penetration": "100%",
+    "deliveryETA": "Real-time payments",
+    "label": "hrywnja",
+    "isSupported": 1
+  },
+  {
+    "index": 141,
+    "country": "United Kingdom",
+    "coverage": "All banks",
+    "currency": "GBP/EUR",
+    "penetration": "100%",
+    "deliveryETA": "Real-time payments",
+    "label": "Sterling pound",
+    "isSupported": 1
+  },
+  {
+    "index": 142,
+    "country": "Uruguay",
+    "coverage": "All banks",
+    "currency": "UYU",
+    "penetration": "100%",
+    "deliveryETA": "Same day delivery",
+    "label": "Uruguay peso",
+    "isSupported": 1
+  },
+  {
+    "index": 143,
+    "country": "USA",
+    "coverage": "All banks",
+    "currency": "USD",
+    "penetration": "100%",
+    "deliveryETA": "Same day/T+1 business day",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 144,
+    "country": "Vatican City State",
+    "coverage": "All banks",
+    "currency": "EUR",
+    "penetration": "100%",
+    "deliveryETA": "SEPA Non-Instant: Same day, T+1 business days",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 145,
+    "country": "Vietnam",
+    "coverage": "Mobile payment services, mobile wallets",
+    "currency": "VND",
+    "penetration": "95%",
+    "deliveryETA": "Real-time payments",
+    "label": "dong",
+    "isSupported": 1
+  },
+  {
+    "index": 146,
+    "country": "Vietnam",
+    "coverage": "All banks",
+    "currency": "VND",
+    "penetration": "100%",
+    "deliveryETA": "Real-time payments",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 147,
+    "country": "Vietnam",
+    "coverage": "All banks",
+    "currency": "USD",
+    "penetration": "100%",
+    "deliveryETA": "Same day/T+1 business day",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 148,
+    "country": "Zambia",
+    "coverage": "Telcos, MNO",
+    "currency": "ZMW",
+    "penetration": "50%",
+    "deliveryETA": "Real-time payments",
+    "label": "Zambian kwacha",
+    "isSupported": 1
+  },
+  {
+    "index": 149,
+    "country": "Zimbabwe",
+    "coverage": "Financial services company",
+    "currency": "USD",
+    "penetration": "63%",
+    "deliveryETA": "Real-time payments",
+    "label": "",
+    "isSupported": 0
+  },
+  {
+    "index": 151,
+    "currency": "MDL",
+    "label": "Moldovan leu",
+    "isSupported": -1
+  }
+]

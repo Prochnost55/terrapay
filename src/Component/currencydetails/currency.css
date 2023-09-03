@@ -1,5 +1,119 @@
-.currency-link{
-    font-size: 30px;
+.currencyPage {
+    justify-content: center;
+}
+.currencyPage .currency-link {
+    font-size: 2.5rem;
     color: white;
     padding-left: 15px;
+    margin: 0 2rem;
 }
+
+.currency-link:hover {
+    color: #EB5E57;
+}
+
+/* .currencyPage li {
+    list-style-type: none;
+}
+
+.currencyPage section {
+      background: red; 
+}
+
+.currencyPage .marquee {
+    --gap: 0rem;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    gap: var(--gap);
+    width: 100%;
+}
+
+.currencyPage .marquee__content {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    gap: var(--gap);
+    min-width: fit-content;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(calc(-100% - var(--gap)));
+    }
+}
+
+.currencyPage.enable-animation .marquee__content {
+    animation: scroll 32s linear infinite;
+}
+
+.currencyPage .marquee--fit-content {
+    max-width: fit-content;
+}
+
+.currencyPage .marquee--pos-absolute .marquee__content:last-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.currencyPage.enable-animation .marquee--pos-absolute .marquee__content:last-child {
+    animation-name: scroll-abs;
+}
+
+@keyframes scroll-abs {
+    from {
+        transform: translateX(calc(100% + var(--gap)));
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.currencyPage .marquee__content>* {
+    flex: 0 0 auto;
+    color: #1f1f1f;
+    font-size: 26px;
+    font-weight: 600;
+    margin: 2px;
+    padding: 1rem 2rem;
+    border-radius: 0.25rem;
+    text-align: center;
+} 
+*/
+
+
+.marquee {
+    position: relative;
+    width: 100vw;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+.track {
+    white-space: nowrap;
+    will-change: transform;
+    margin: 1.5rem 0;
+  }
+.track-fwd {
+    animation: marquee 60s linear infinite;
+}
+.track-rev {
+    animation: marquee-rev 60s linear infinite;
+}
+  
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-30%); }
+  }
+  
+  @keyframes marquee-rev {
+    from { transform: translateX(-30%); }
+    to { transform: translateX(0); }
+  }

@@ -3,13 +3,13 @@ import "./RedirectionBar.css"
 import { useNavigate } from 'react-router-dom';
 const RedirectionBar = (props) => {
     const navigate = useNavigate();
-    const {to} = props;
+    const {to, delay = 5000} = props;
     
     React.useEffect(() => {
         setTimeout(() => {
             if(!to) return null;
             navigate(to);
-        }, 3000)
+        }, delay)
     }, [])
     if(!to) return null;
     return (
