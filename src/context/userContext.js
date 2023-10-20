@@ -5,6 +5,7 @@ export const EMPTY_USER = {
     email: "",
     mobileNo: "",
     gameCount: 0,
+    triviaGameCount: 0,
     selectedCurrency: []
 }
 const UserContext = React.createContext({

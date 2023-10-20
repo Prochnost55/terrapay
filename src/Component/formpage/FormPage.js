@@ -7,10 +7,12 @@ import UserContext, { EMPTY_USER } from "../../context/userContext";
 import { TOTAL_ALLOWED_ATTEMPTS } from "../../utils/constant";
 import ParticlesComponent from "../Particles/ParticlesComponent";
 import { BUBBLES } from "../../utils/particlePresets";
+import GameModeContext, { GAME_MODE } from '../../context/gameContext';
 
 function FormPage() {
     const navigate = useNavigate();
     const { user, setUser } = useContext(UserContext);
+    const {gameMode} = useContext(GameModeContext);
     const [error, setError] = useState("");
     const [data, setData] = useState(EMPTY_USER);
 
@@ -63,16 +65,18 @@ function FormPage() {
 
     const updateUser = async (data) => {
         let userFromDB = await getUserFromDB(data.email);
+        const valueToObserve = gameMode === GAME_MODE.ADVANCED ? 'gameCount' : 'triviaGameCount';
         if (userFromDB) {
-            if (userFromDB.gameCount >= TOTAL_ALLOWED_ATTEMPTS) {
+            
+            if (userFromDB[valueToObserve] >= TOTAL_ALLOWED_ATTEMPTS) {
                 navigate('/thankyou');
                 throw new Error('ATTEMPTS_EXHAUSTED');
             }
-            userFromDB.gameCount += 1;
+            userFromDB[valueToObserve] += 1;
             await updateUserInDB(userFromDB)
         } else {
             userFromDB = data;
-            userFromDB.gameCount += 1;
+            userFromDB[valueToObserve] += 1;
             await saveDataToDB(userFromDB)
         }
         setUser(userFromDB);
@@ -80,53 +84,57 @@ function FormPage() {
     return (
         <>
             <div className="container form-container">
-                <TerraPayLogo className='terrapay-logo' />
+                {/* <TerraPayLogo className='terrapay-logo' /> */}
                 <div className="form">
-                    <div className="form-header">
+                    {/* <div className="form-header">
                         <h1 className="form-title">Fill in your details and</h1>
                         <h2 className="form-subtitle">let's find out!</h2>
+                    </div> */}
+                    <div className="form-header">
+                        <div>A few quick details before</div>
+                        <div>you get started!</div>
                     </div>
                     <div className="row">
-                        <div className="col-40">
-                            <input
-                                type="text"
-                                name="firstName"
-                                placeholder="First Name*"
-                                value={data.firstName}
-                                onChange={handleInputChange}
-                            />
-                        </div>
-                        <div className="col-60">
-                            <input
-                                type="text"
-                                name="lastName"
-                                placeholder="Last Name*"
-                                className="last-name"
-                                value={data.lastName}
-                                onChange={handleInputChange}
-                            />
-                        </div>
+                        <input
+                            type="text"
+                            name="firstName"
+                            placeholder="First Name*"
+                            value={data.firstName}
+                            onChange={handleInputChange}
+                            autoComplete="off"
+                            autoFocus
+                        />
+                        <input
+                            type="text"
+                            name="lastName"
+                            placeholder="Last Name*"
+                            className="last-name"
+                            value={data.lastName}
+                            onChange={handleInputChange}
+                            autoComplete="off"
+                            
+                        />
                     </div>
                     <div className="row">
-                        <div className="col-60">
-                            <input
-                                type="email"
-                                name="email"
-                                className="email"
-                                placeholder="Business Email*"
-                                value={data.email}
-                                onChange={handleInputChange}
-                            />
-                        </div>
-                        <div className="col-40">
-                            <input
-                                type="tel"
-                                name="mobileNo"
-                                placeholder="Mobile no (optional)"
-                                value={data.mobileNo}
-                                onChange={handleInputChange}
-                            />
-                        </div>
+                        <input
+                            type="email"
+                            name="email"
+                            className="email"
+                            placeholder="Business Email*"
+                            value={data.email}
+                            onChange={handleInputChange}
+                            autoComplete="off"
+                            
+                        />
+                        <input
+                            type="tel"
+                            name="mobileNo"
+                            placeholder="Mobile no (optional)"
+                            value={data.mobileNo}
+                            onChange={handleInputChange}
+                            autoComplete="off"
+                            
+                        />                   
                     </div>
                     {error && <p className="error-message">{error}</p>}
                     <button className="submit-button" onClick={handleSubmit}>

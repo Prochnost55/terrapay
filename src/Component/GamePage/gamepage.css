@@ -122,3 +122,9 @@
     from { transform: translateX(-30%); }
     to { transform: translateX(0); }
   }
+
+  .question {
+    text-align: center;
+    line-height: 100%;
+    padding: 10px 80px;
+  }

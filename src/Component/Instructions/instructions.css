@@ -1,0 +1,37 @@
+.girl-img{
+    position: absolute;
+    bottom: 0;
+    height: 55vh;
+}
+.hat-img {
+    height: 250px;
+}
+.container-game .title{
+    font-size: 5rem;
+    margin-top: 3rem;
+    color: #EB5E57;
+}
+
+.container-game .sub-title{
+    color: white;
+    font-size: 2rem;
+}
+
+.instruction{
+    font-size: 4rem;
+    color: white;
+    line-height: 90%;
+}
+.instruction.red{
+    color: #EB5E57;
+}
+
+.instruction-container{
+    margin: 1.5rem;
+    text-align: center;
+}
+
+.supporting-text {
+    font-size: 1.2rem;
+    color: white;
+}

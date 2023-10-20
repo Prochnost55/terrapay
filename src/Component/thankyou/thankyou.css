@@ -1,8 +1,14 @@
 .thank-you-container{
     justify-content: center;
+    text-align: center;
 }
+.thank-you-container > *{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
 .background-image{
-    background: top 10% left 70% / 120%  no-repeat url("../assets/background.png");
+    background: top 0 left 70% / 120%  no-repeat url("../assets/background.png");
     position: fixed;
     top: 0;
     left: 0;
@@ -18,7 +24,6 @@
     color: #2B4994;
     font-weight: 400;
     text-align: center;
-    width: 44%;
     padding-top: 5px;
 }
 .prize-content{

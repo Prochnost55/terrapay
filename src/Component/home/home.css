@@ -12,29 +12,51 @@
 .container-centered {
     justify-content: center;
 }
-.ques-img {
-    /* margin-top: 3rem; */
+/* .ques-img {
     width: 30vw;
     margin-bottom: -6rem;
-}
+} */
 
 .heading {
     color: white;
-    font-size: 4rem;
+    font-size: 5rem;
     margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+.heading div:first-child{
+    margin-right: 4rem;
+}
+.heading div:last-child{
+    text-align: right;
 }
 
+.sub-heading {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    line-height: 100%;
+}
 .btn {
     border-radius: 8px;
     padding: 1rem 3rem;
     border: 1px solid #EB5E57;
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 1.5rem 1rem;
     background-color: transparent;
 }
 
-.btn:hover {
+.btn-blue {
+    background-color: #5F8EFB;
+    border: 1px solid #5F8EFB;
+}
+
+.btn-orange {
     background-color: #EB5E57;
+    border: 1px solid #EB5E57;
+}
+
+.btn:hover {
     cursor: pointer;
 }
