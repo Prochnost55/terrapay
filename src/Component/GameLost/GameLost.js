@@ -138,8 +138,8 @@ const gameLost = {
     [GAME_MODE.EASY]: () => {
         const { currencyId: questionIdx } = useParams();
         const question = questions[questionIdx];
-
-        const user = {}
+        const { user } = useContext(UserContext);
+        
         return (
             <div className="container not-covered-container container-centered">
                 <img src={incorrect} alt="check" className="check-img" />
