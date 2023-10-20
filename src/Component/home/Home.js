@@ -1,12 +1,11 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
-// import QuestionMark from "../assets/quesMark.png"
-import { QuestionMark } from "../assets/svgs";
 import "./home.css";
 import ParticlesComponent from "../Particles/ParticlesComponent";
 import { BUBBLES } from "../../utils/particlePresets";
 import GameModeContext, { GAME_MODE } from "../../context/gameContext";
-function Home(props) {
+
+const Home = (props) => {
     const {setGameMode} = useContext(GameModeContext);
 
     const handleClick = (gameMode) => {
