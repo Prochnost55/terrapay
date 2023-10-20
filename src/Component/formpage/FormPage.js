@@ -1,7 +1,6 @@
 import React, { useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./form.css";
-import { TerraPayLogo } from "../Assets/svgs";
 import { getUserFromDB, saveDataToDB, updateUserInDB } from "../../utils/client";
 import UserContext, { EMPTY_USER } from "../../context/userContext";
 import { TOTAL_ALLOWED_ATTEMPTS } from "../../utils/constant";
@@ -84,7 +83,6 @@ function FormPage() {
     return (
         <>
             <div className="container form-container">
-                {/* <TerraPayLogo className='terrapay-logo' /> */}
                 <div className="form">
                     {/* <div className="form-header">
                         <h1 className="form-title">Fill in your details and</h1>
