@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "./gearup.css";
-import LottieCube from "../Assets/LottieCube/LottieCube";
+import LottieCube from "../../Assets/LottieCube/LottieCube";
 import GameModeContext, { GAME_MODE } from "../../context/gameContext";
 
 function GearupPage() {
