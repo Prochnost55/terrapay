@@ -1,17 +1,17 @@
 import "./App.css";
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./Component/Home/Home";
-import FormPage from "./Component/FormPage/FormPage";
-import GearupPage from "./Component/gearup/gearupPage";
-import Instructions from "./Component/Instructions/Instructions";
-import GamePage from "./Component/GamePage/GamePage";
-import GameLost from "./Component/GameLost/GameLost";
-import FinalPage from './Component/GameWon/GameWon';
-import ThankYou from './Component/thankyou/ThankYou';
+import Home from "./component/Home/Home";
+import FormPage from "./component/FormPage/FormPage";
+import GearupPage from "./component/gearup/gearupPage";
+import Instructions from "./component/Instructions/Instructions";
+import GamePage from "./component/GamePage/GamePage";
+import GameLost from "./component/GameLost/GameLost";
+import FinalPage from './component/GameWon/GameWon';
+import ThankYou from './component/thankyou/ThankYou';
 import UserContext, { EMPTY_USER } from "./context/userContext";
 import GameModeContext, { GAME_MODE } from "./context/gameContext";
-import GameWon from "./Component/GameWon/GameWon";
+import GameWon from "./component/GameWon/GameWon";
 
 function App() {
     const [user, setUser] = React.useState(EMPTY_USER);
