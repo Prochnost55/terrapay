@@ -1,7 +1,7 @@
 import "./App.css";
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./component/Home/Home";
+import Home from "./component/home/Home";
 import FormPage from "./component/FormPage/FormPage";
 import GearupPage from "./component/gearup/gearupPage";
 import Instructions from "./component/Instructions/Instructions";
