@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
-import check from "../assets/check.png";
+import check from "../Assets/check.png";
 import "./gamewon.css";
 import { TOTAL_ALLOWED_ATTEMPTS } from "../../utils/constant";
 import UserContext from "../../context/userContext";

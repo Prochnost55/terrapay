@@ -7,7 +7,7 @@ import UserContext from "../../context/userContext";
 import { updateUserInDB } from "../../utils/client";
 import { TOTAL_ALLOWED_ATTEMPTS } from "../../utils/constant";
 import GameModeContext, { GAME_MODE } from "../../context/gameContext";
-import incorrect from "../assets/incorrect.png";
+import incorrect from "../Assets/incorrect.png";
 import questions from "../GamePage/questions";
 
 function GameLost(props){

@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import './thankyou.css';
-import Lock from '../assets/shoppingBag.png';
+import Lock from '../Assets/shoppingBag.png';
 import UserContext, { EMPTY_USER } from '../../context/userContext';
 import RedirectionBar from '../RedirectionBar/RedirectionBar';
 import { CONFETI } from '../../utils/particlePresets';
