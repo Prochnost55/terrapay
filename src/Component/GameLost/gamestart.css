@@ -1,7 +1,7 @@
 .game-result-container {
     justify-content: center;
-    background: top 10% left 20% / 20% no-repeat url("../Assets/light.png"),
-        top 50% left 80% / 30% no-repeat url("../Assets/light.png");
+    background: top 10% left 20% / 20% no-repeat url("../../Assets/light.png"),
+        top 50% left 80% / 30% no-repeat url("../../Assets/light.png");
 }
 
 .container-covered {

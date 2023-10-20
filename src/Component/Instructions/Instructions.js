@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import quesGirl from "../Assets/questionGirl.png";
-import hat from "../Assets/hat.png";
+import quesGirl from "../../Assets/questionGirl.png";
+import hat from "../../Assets/hat.png";
 import './instructions.css';
 import RedirectionBar from "../RedirectionBar/RedirectionBar";
 import GameModeContext, { GAME_MODE } from "../../context/gameContext";

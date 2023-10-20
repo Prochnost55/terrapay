@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "./gearup.css";
-import LottieCube from "../../Assets/LottieCube/LottieCube";
 import GameModeContext, { GAME_MODE } from "../../context/gameContext";
-
+import LottieCube from "../../Assets/LottieCube/LottieCube";
 function GearupPage() {
     const navigate = useNavigate();
     const { gameMode } = React.useContext(GameModeContext)
@@ -27,7 +26,7 @@ const GearUpScreen = {
             <h1 className="sub-title">gear up</h1>
             <h1 className="title">for the currency</h1>
             <h1 className="title">challenge</h1>
-            <LottieCube className="loader" />
+            <LottieCube  className="loader" />
         </div>
     ,
     [GAME_MODE.EASY]: <div className="container container-centered">

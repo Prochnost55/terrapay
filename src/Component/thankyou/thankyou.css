@@ -8,7 +8,7 @@
 }
 
 .background-image{
-    background: top 0 left 70% / 120%  no-repeat url("../Assets/background.png");
+    background: top 0 left 70% / 120%  no-repeat url("../../Assets/background.png");
     position: fixed;
     top: 0;
     left: 0;
