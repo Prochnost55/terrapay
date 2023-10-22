@@ -2,7 +2,7 @@ import "./App.css";
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Component/home/Home";
-import FormPage from "./Component/FormPage/FormPage";
+import FormPage from "./Component/formpage/FormPage";
 import GearupPage from "./Component/gearup/gearupPage";
 import Instructions from "./Component/Instructions/Instructions";
 import GamePage from "./Component/GamePage/GamePage";

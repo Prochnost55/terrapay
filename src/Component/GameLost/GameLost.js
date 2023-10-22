@@ -161,7 +161,7 @@ const gameLost = {
                     {TOTAL_ALLOWED_ATTEMPTS - user.triviaGameStat.attempts > 0 ? <Link to={"/form"}>
                         <button className="btn btn-orange">Next Question</button>
                     </Link> : null}
-                    <Link to={"/thankyou"}>
+                    <Link to={"/end-game"}>
                         <button className="btn">Find out more from our experts</button>
                     </Link>
                 </div>
