@@ -1,8 +1,8 @@
 import React, { useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./form.css";
-import { getUserFromDB, saveDataToDB, updateUserInDB } from "../../utils/client";
-import UserContext, { EMPTY_USER } from "../../context/userContext";
+import { getUserFromDB } from "../../utils/client";
+import UserContext, { EMPTY_USER, TRIVIA_GAME_RESULT } from "../../context/userContext";
 import { TOTAL_ALLOWED_ATTEMPTS } from "../../utils/constant";
 import ParticlesComponent from "../Particles/ParticlesComponent";
 import { BUBBLES } from "../../utils/particlePresets";
@@ -62,23 +62,46 @@ function FormPage() {
         }
     };
 
-    const updateUser = async (data) => {
+    const updateUserForAdvanced = async (data) => {
         let userFromDB = await getUserFromDB(data.email);
-        const valueToObserve = gameMode === GAME_MODE.ADVANCED ? 'gameCount' : 'triviaGameCount';
         if (userFromDB) {
-            
-            if (userFromDB[valueToObserve] >= TOTAL_ALLOWED_ATTEMPTS) {
+            let totalAttemptsAvailed = userFromDB['gameCount'];
+            if (totalAttemptsAvailed >= TOTAL_ALLOWED_ATTEMPTS) {
                 navigate('/thankyou');
                 throw new Error('ATTEMPTS_EXHAUSTED');
             }
-            userFromDB[valueToObserve] += 1;
-            await updateUserInDB(userFromDB)
+            userFromDB['gameCount'] += 1;
         } else {
             userFromDB = data;
-            userFromDB[valueToObserve] += 1;
-            await saveDataToDB(userFromDB)
+            userFromDB['gameCount'] += 1;
         }
         setUser(userFromDB);
+    }
+
+    const updateUserForEasy = async (data) => {
+        let userFromDB = await getUserFromDB(data.email);
+        if (userFromDB) {
+            let totalAttemptsAvailed = userFromDB.triviaGameStat.attempts;
+            if (userFromDB.triviaGameStat.result === TRIVIA_GAME_RESULT.WON){
+                navigate('/thankyou');
+                throw new Error('GAME_WON');
+            }
+            if (totalAttemptsAvailed >= TOTAL_ALLOWED_ATTEMPTS) {
+                navigate('/end-game');
+                throw new Error('ATTEMPTS_EXHAUSTED');
+            }
+        } else {
+            userFromDB = data;
+        }
+        setUser(userFromDB);
+    }
+
+    const updateUser = (data) => {
+       if(gameMode === GAME_MODE.ADVANCED){
+            return updateUserForAdvanced(data);
+        } else {
+            return updateUserForEasy(data);
+        }
     }
     return (
         <>

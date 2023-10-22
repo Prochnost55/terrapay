@@ -3,7 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import check from "../../Assets/check.png";
 import "./gamewon.css";
 import { TOTAL_ALLOWED_ATTEMPTS } from "../../utils/constant";
-import UserContext from "../../context/userContext";
+import UserContext, { TRIVIA_GAME_RESULT } from "../../context/userContext";
 import GameModeContext, { GAME_MODE } from "../../context/gameContext";
 import questions from "../GamePage/questions";
 
@@ -22,7 +22,11 @@ const gameWonScreen = {
         useEffect(() => {
             setUser({
                 ...user,
-                triviaGameCount: user.triviaGameCount+1
+                triviaGameStat: {
+                    ...user.triviaGameStat,
+                    result: TRIVIA_GAME_RESULT.WON,
+                    attempts: user.triviaGameStat.attempts+1
+                }
             })
         }, [])
         return (
@@ -45,7 +49,7 @@ const gameWonScreen = {
         );
     },
     [GAME_MODE.ADVANCED]: () => {
-        const { user } = useContext(UserContext);
+        const { user, setUser } = useContext(UserContext);
         return (
             <div className="container not-covered-container container-centered">
                 <img src={check} alt="check" className="check-img" />
@@ -55,9 +59,6 @@ const gameWonScreen = {
                 </div>
                 
                 <div>
-                    {TOTAL_ALLOWED_ATTEMPTS - user.gameCount > 0 ? <Link to={"/form"}>
-                        <button className="btn">Play again</button>
-                    </Link> : null}
                     <Link to={"/thankyou"}>
                         <button className="btn">Find out more from our experts</button>
                     </Link>

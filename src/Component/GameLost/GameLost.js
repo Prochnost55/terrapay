@@ -46,7 +46,6 @@ const gameLost = {
                 ] : [selectedCurrency]
             }
             setUser(updatedUserData);
-            updateUserInDB(updatedUserData);
         }
     
         if (!currency) {
@@ -138,8 +137,18 @@ const gameLost = {
     [GAME_MODE.EASY]: () => {
         const { currencyId: questionIdx } = useParams();
         const question = questions[questionIdx];
-        const { user } = useContext(UserContext);
+        const { user, setUser } = useContext(UserContext);
         
+        useEffect(() => {
+            setUser({
+                ...user,
+                triviaGameStat: {
+                    ...user.triviaGameStat,
+                    attempts: user.triviaGameStat.attempts+1
+                }
+            })
+        }, [])
+
         return (
             <div className="container not-covered-container container-centered">
                 <img src={incorrect} alt="check" className="check-img" />
@@ -149,7 +158,7 @@ const gameLost = {
                 </div>
 
                 <div>
-                    {TOTAL_ALLOWED_ATTEMPTS - user.triviaGameCount > 0 ? <Link to={"/form"}>
+                    {TOTAL_ALLOWED_ATTEMPTS - user.triviaGameStat.attempts > 0 ? <Link to={"/form"}>
                         <button className="btn btn-orange">Next Question</button>
                     </Link> : null}
                     <Link to={"/thankyou"}>
