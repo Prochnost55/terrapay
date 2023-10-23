@@ -67,7 +67,7 @@ function FormPage() {
         if (userFromDB) {
             let totalAttemptsAvailed = userFromDB['gameCount'];
             if (totalAttemptsAvailed >= TOTAL_ALLOWED_ATTEMPTS) {
-                navigate('/thankyou');
+                navigate('/end-game');
                 throw new Error('ATTEMPTS_EXHAUSTED');
             }
             userFromDB['gameCount'] += 1;

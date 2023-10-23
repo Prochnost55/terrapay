@@ -126,7 +126,7 @@ const gameLost = {
                             <button className="btn">Try again</button>
                         </Link> : null}
                         
-                        <Link to={"/thankyou"}>
+                        <Link to={"/end-game"}>
                             <button className="btn">Find out more from our experts</button>
                         </Link>
                     </div>

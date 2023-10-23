@@ -59,7 +59,7 @@ const gameWonScreen = {
                 </div>
                 
                 <div>
-                    <Link to={"/thankyou"}>
+                    <Link to={"/end-game"}>
                         <button className="btn">Find out more from our experts</button>
                     </Link>
                 </div>
